@@ -11,7 +11,7 @@ body:
         "Remove all legacy code."
         "Replace it with new, better code."
     validations:
-      required: true
+      required: false
   - type: textarea
     id: children
     attributes:
