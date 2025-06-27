@@ -1,15 +1,6 @@
 name: Feature Plan
 description: Create a feature plan as part of a milestone or project.
 body:
-  - type: input
-    id: feature-name
-    attributes:
-      label: "Feature Name:"
-      description: |
-        The name or short summary of the feature you want implemented.
-      placeholder: "Refactor Everything"
-    validations:
-      required: true
   - type: textarea
     id: feature-description
     attributes:
