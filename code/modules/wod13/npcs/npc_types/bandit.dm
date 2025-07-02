@@ -1,6 +1,9 @@
 /mob/living/carbon/human/npc/bandit
-	max_stat = 3
+	max_stat = HARD_CRIT
+	// TODO: [Lucia] reimplement weapons
+	/*
 	my_backup_weapon_type = /obj/item/melee/vampirearms/knife
+	*/
 
 /mob/living/carbon/human/npc/bandit/Initialize(mapload)
 	. = ..()

@@ -9,11 +9,15 @@
 	if (!prob(5))
 		return
 
+	INVOKE_ASYNC(src, PROC_REF(dance_at_jukebox))
+
+/mob/living/carbon/human/npc/walkby/club/proc/dance_at_jukebox()
 	var/hasjukebox = FALSE
 	for (var/obj/machinery/jukebox/jukebox in range(5, src))
 		hasjukebox = TRUE
 
-		if (!jukebox.active)
+		// Hacky check for if it's currently playing
+		if (jukebox.static_power_usage != ACTIVE_POWER_USE)
 			continue
 		if (prob(50))
 			dancefirst(src)

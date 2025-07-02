@@ -578,56 +578,6 @@
 	contains = list(/obj/structure/drill)
 	crate_name = "drill crate"
 
-/obj/item/stack/dollar
-	name = "dollars"
-	desc = "Wow! With enough of these, you could buy a lot! ...Pssh, yeah right."
-	singular_name = "dollar"
-	icon_state = "money1"
-	icon = 'icons/wod13/items.dmi'
-	lefthand_file = null
-	righthand_file = null
-	onflooricon = 'icons/wod13/onfloor.dmi'
-	w_class = WEIGHT_CLASS_TINY
-	max_amount = 1000
-	merge_type = /obj/item/stack/dollar
-
-/obj/item/stack/dollar/Initialize(mapload, new_amount, merge = TRUE, list/mat_override=null, mat_amt=1)
-	. = ..()
-	update_icon()
-
-/obj/item/stack/dollar/update_icon_state()
-	var/amount = get_amount()
-	switch(amount)
-		if(100 to INFINITY)
-			icon_state = "money3"
-		if(50 to 100)
-			icon_state = "money2"
-		if(1 to 50)
-			icon_state = "money1"
-		else
-			icon_state = "money"
-
-/obj/item/stack/dollar/five
-	amount = 5
-
-/obj/item/stack/dollar/ten
-	amount = 10
-
-/obj/item/stack/dollar/fifty
-	amount = 50
-
-/obj/item/stack/dollar/hundred
-	amount = 100
-
-/obj/item/stack/dollar/rand
-	amount = 1.3
-
-/obj/item/stack/dollar/rand/Initialize(mapload, new_amount, merge = TRUE, list/mat_override=null, mat_amt=1)
-	. = ..()
-	if(amount == 1.3)
-		amount = rand(5, 30)
-		update_icon()
-
 /obj/item/cargo_box
 	name = "cargo box"
 	desc = "Special deliever."
@@ -647,16 +597,17 @@
 	anchored = TRUE
 	density = TRUE
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF | FREEZE_PROOF
-	var/last_take = 0
+	COOLDOWN_DECLARE(take_box)
 
 /obj/structure/cargo_take/attack_hand(mob/user)
-	if(last_take+30 < world.time)
-		last_take = world.time
-		playsound(src, 'sound/machines/machine_vend.ogg', 50, TRUE, extrarange = -3)
-		to_chat(user, "<span class='notice'>You take the box from [src].</span>")
-		new /obj/item/cargo_box(get_turf(user))
-		return
-	..()
+	if (!COOLDOWN_FINISHED(src, take_box))
+		return ..()
+	COOLDOWN_START(src, take_box, 3 SECONDS)
+
+	playsound(src, 'sound/machines/machine_vend.ogg', 50, TRUE, extrarange = -3)
+	to_chat(user, span_notice("You take the box from [src]."))
+
+	new /obj/item/cargo_box(get_turf(user))
 
 /obj/structure/cargo_put
 	name = "cargo"

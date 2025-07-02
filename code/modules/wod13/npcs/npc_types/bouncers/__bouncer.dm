@@ -33,14 +33,13 @@
 	my_backup_weapon_type = /obj/item/melee/classic_baton/vampire
 
 	//Behavior settings
-	fights_anyway=TRUE
+	aggressive=TRUE
 
 /mob/living/carbon/human/npc/bouncer/Initialize(mapload)
 	.=..()
 
 	if(src.type == /mob/living/carbon/human/npc/bouncer)
 		CRASH("Bouncer created using default type, please use a child of this type in mapping.")
-
 
 	AssignSocialRole(our_role)
 
@@ -171,7 +170,7 @@
 /mob/living/carbon/human/npc/bouncer/proc/speak_seldom(phrase, mob/target)
 	if(can_be_reasoned_with() && world.time > message_cooldown)
 		message_cooldown = world.time + repeat_delay
-		RealisticSay(phrase)
+		realistic_say(phrase)
 		dir = get_dir(loc, get_turf(target))
 		addtimer(CALLBACK(src, PROC_REF(resume_neutral_direction)), resume_neutral_direction_delay)
 

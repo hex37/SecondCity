@@ -34,7 +34,6 @@
 	.=..()
 	RemoveElement(/datum/element/climbable)
 
-
 /obj/structure/gargoyle
 	name = "\improper gargoyle"
 	desc = "Some kind of gothic architecture."

@@ -1,3 +1,4 @@
+// put this somewhere else probably
 #define DICE_CRIT_WIN 1
 #define DICE_WIN 2
 #define DICE_FAILURE 3

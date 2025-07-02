@@ -708,7 +708,11 @@ GLOBAL_LIST_INIT(human_heights_to_offsets, list(
 /// Total number of layers for mob overlays
 /// KEEP THIS UP-TO-DATE OR SHIT WILL BREAK
 /// Also consider updating layers_to_offset
-#define TOTAL_LAYERS 36
+// Start WoD13 Modification
+#define TOTAL_LAYERS 37
+/// Layer for shadow overlays under mobs
+#define UNDERSHADOW_LAYER 37
+// End WoD13 Modification
 /// Mutations layer - Tk headglows, cold resistance glow, etc
 #define MUTATIONS_LAYER 36
 /// Mutantrace features (tail when looking south) that must appear behind the body parts

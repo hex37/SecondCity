@@ -1,5 +1,6 @@
 /mob/living/carbon/human/toggle_resting()
 	. = ..()
+
 	update_shadow()
 
 /mob/living/carbon/human/proc/update_shadow()

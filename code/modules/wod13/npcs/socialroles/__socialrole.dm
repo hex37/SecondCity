@@ -34,8 +34,8 @@
 
 	//Hair shit
 	var/list/hair_colors = list(
-		"040404", //Black
-		"120b05", //Dark Brown
+		"040404", 	//Black
+		"120b05", 	//Dark Brown
 		"342414",	//Brown
 		"554433",	//Light Brown
 		"695c3b",	//Dark Blond
@@ -220,7 +220,7 @@
 	var/list/help_phrases = list(
 		"Help!",
 		"Help Me!!",
-		"What the hell's going on here?!",
+		"What the hell's going on here!?",
 		"Shoot!!",
 	)
 	var/list/car_dodged = list(
@@ -230,7 +230,7 @@
 		"Watch it!",
 		"Learn to drive!",
 		"You almost ran me over!",
-		"What the fuck?!",
+		"What the fuck!?",
 	)
 
 	var/is_criminal = FALSE
@@ -270,7 +270,7 @@
 		gender = pick(MALE, FEMALE)
 		if(socialrole.preferred_gender)
 			gender = socialrole.preferred_gender
-		body_type = gender
+		physique = gender
 		var/list/m_names = list()
 		var/list/f_names = list()
 		var/list/s_names = list()
