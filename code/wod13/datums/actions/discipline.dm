@@ -12,7 +12,14 @@
 
 /datum/action/discipline/New(datum/discipline/discipline)
 	. = ..()
+
 	src.discipline = discipline
+
+	name = discipline.current_power.name
+	desc = discipline.current_power.desc
+
+	button_icon_state = discipline.icon_state
+	overlay_icon_state = "1"
 
 /datum/action/discipline/Grant(mob/M)
 	. = ..()
@@ -51,7 +58,7 @@
 		SIGNAL_REMOVETRAIT(TRAIT_PACIFISM),
 	)
 
-	RegisterSignal(owner, relevant_signals, TYPE_PROC_REF(/mob, update_action_buttons))
+	RegisterSignals(owner, relevant_signals, TYPE_PROC_REF(/mob, update_action_buttons))
 
 /datum/action/discipline/IsAvailable(feedback)
 	return discipline.current_power.can_activate_untargeted(feedback)
@@ -59,7 +66,7 @@
 /datum/action/discipline/Trigger(trigger_flags)
 	. = ..()
 
-	update_button_status()
+	build_all_button_icons(UPDATE_BUTTON_STATUS)
 
 	//easy de-targeting
 	if (targeting)
@@ -90,17 +97,9 @@
 		else //ranged targeted activation
 			begin_targeting()
 
-	update_button_status()
+	build_all_button_icons(UPDATE_BUTTON_STATUS)
 
 	return .
-
-/datum/action/discipline/apply_button_overlay(atom/movable/screen/movable/action_button/current_button, force)
-	if (!discipline)
-		return
-
-	overlay_icon_state = num2text(discipline.level_casting)
-
-	. = ..()
 
 /datum/action/discipline/proc/switch_level(to_advance = 1)
 	SEND_SOUND(owner, sound('sound/wod13/highlight.ogg', 0, 0, 50))
@@ -117,7 +116,13 @@
 
 	discipline.current_power = discipline.known_powers[discipline.level_casting]
 
-	apply_button_overlay()
+	// Update name and icon to the new power's
+	name = discipline.current_power.name
+	desc = discipline.current_power.desc
+
+	overlay_icon_state = num2text(discipline.level_casting)
+
+	build_all_button_icons()
 
 /datum/action/discipline/proc/end_targeting()
 	var/client/client = owner?.client

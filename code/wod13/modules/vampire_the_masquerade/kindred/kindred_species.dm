@@ -83,6 +83,9 @@
 	// Apply bashing damage resistance
 	RegisterSignal(new_kindred, COMSIG_MOB_APPLY_DAMAGE_MODIFIERS, PROC_REF(damage_resistance))
 
+	// TODO: [Lucia] reimplement choosing disciplines
+	new_kindred.give_discipline(new /datum/discipline/celerity(5))
+
 /datum/species/human/kindred/on_species_loss(mob/living/carbon/human/human, datum/species/new_species, pref_load)
 	. = ..()
 
