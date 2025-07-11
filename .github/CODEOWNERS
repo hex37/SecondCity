@@ -11,8 +11,8 @@
 /modular_darkpack/code/datums/actions/discipline.dm @TheCarnalest
 /modular_darkpack/code/datums/powers/ @TheCarnalest
 /modular_darkpack/code/modules/vampire_the_masquerade/ @TheCarnalest
-/code/__DEFINES/wod13/dcs/power_signals.dm @TheCarnalest
-/code/__DEFINES/wod13/discipline.dm @TheCarnalest
+/code/__DEFINES/~darkpack/dcs/power_signals.dm @TheCarnalest
+/code/__DEFINES/~darkpack/discipline.dm @TheCarnalest
 
 # CONTRIBUTORS
 
