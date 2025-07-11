@@ -2,8 +2,8 @@
 	name = "mystic tome"
 	desc = "The secrets of Abyss Mysticism..."
 	icon_state = "mystic"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	w_class = WEIGHT_CLASS_SMALL
 	var/list/rituals = list()
 
@@ -28,7 +28,7 @@
 /obj/abyssrune
 	name = "Lasombra Rune"
 	desc = "Learn the secrets of the Abyss, neonate..."
-	icon = 'modular_darkpack/modules/depreciated/icons/icons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/icons.dmi'
 	icon_state = "rune1"
 	color = rgb(0,0,0)
 	anchored = TRUE

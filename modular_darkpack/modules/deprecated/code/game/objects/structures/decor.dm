@@ -1,6 +1,6 @@
 /obj/effect/decal/rugs
 	name = "rugs"
-	icon = 'modular_darkpack/modules/depreciated/icons/tiles.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/tiles.dmi'
 	icon_state = "rugs"
 
 /obj/effect/decal/rugs/Initialize(mapload)
@@ -10,7 +10,7 @@
 /obj/structure/vampfence
 	name = "\improper fence"
 	desc = "Protects places from walking in."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "fence"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -21,10 +21,10 @@
 	icon_state = "fence_corner"
 
 /obj/structure/vampfence/rich
-	icon = 'modular_darkpack/modules/depreciated/icons/32x48.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/32x48.dmi'
 
 /obj/structure/vampfence/corner/rich
-	icon = 'modular_darkpack/modules/depreciated/icons/32x48.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/32x48.dmi'
 
 /obj/structure/vampfence/Initialize(mapload)
 	.=..()
@@ -37,7 +37,7 @@
 /obj/structure/gargoyle
 	name = "\improper gargoyle"
 	desc = "Some kind of gothic architecture."
-	icon = 'modular_darkpack/modules/depreciated/icons/32x48.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/32x48.dmi'
 	icon_state = "gargoyle"
 	pixel_z = 8
 	plane = GAME_PLANE
@@ -47,7 +47,7 @@
 /obj/structure/lamppost
 	name = "lamppost"
 	desc = "Gives some light to the streets."
-	icon = 'modular_darkpack/modules/depreciated/icons/lamppost.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/lamppost.dmi'
 	base_icon_state = "base"
 	plane = GAME_PLANE
 	layer = SPACEVINE_LAYER
@@ -148,7 +148,7 @@
 /obj/structure/trafficlight
 	name = "traffic light"
 	desc = "Shows when road is free or not."
-	icon = 'modular_darkpack/modules/depreciated/icons/lamppost.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/lamppost.dmi'
 	icon_state = "traffic"
 	plane = GAME_PLANE
 	layer = SPACEVINE_LAYER
@@ -165,7 +165,7 @@
 
 /obj/effect/decal/litter
 	name = "litter"
-	icon = 'modular_darkpack/modules/depreciated/icons/tiles.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/tiles.dmi'
 	icon_state = "paper1"
 
 /obj/effect/decal/litter/Initialize(mapload)
@@ -174,7 +174,7 @@
 
 /obj/effect/decal/cardboard
 	name = "cardboard"
-	icon = 'modular_darkpack/modules/depreciated/icons/tiles.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/tiles.dmi'
 	icon_state = "cardboard1"
 
 /obj/effect/decal/cardboard/Initialize(mapload)
@@ -187,7 +187,7 @@
 /obj/structure/clothingrack
 	name = "clothing rack"
 	desc = "Have some clothes."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "rack"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -204,7 +204,7 @@
 /obj/structure/clothinghanger
 	name = "clothing hanger"
 	desc = "Have some clothes."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "hanger1"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -218,7 +218,7 @@
 /obj/structure/foodrack
 	name = "food rack"
 	desc = "Have some food."
-	icon = 'modular_darkpack/modules/depreciated/icons/64x64.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/64x64.dmi'
 	icon_state = "rack2"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -233,7 +233,7 @@
 /obj/structure/trashcan
 	name = "trash can"
 	desc = "Holds garbage inside."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "garbage"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -253,7 +253,7 @@
 /obj/structure/trashbag
 	name = "trash bag"
 	desc = "Holds garbage inside."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "garbage1"
 	anchored = TRUE
 
@@ -267,7 +267,7 @@
 /obj/structure/hotelsign
 	name = "sign"
 	desc = "It says H O T E L."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "hotel"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -285,7 +285,7 @@
 /obj/structure/hotelbanner
 	name = "banner"
 	desc = "It says H O T E L."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "banner"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -303,7 +303,7 @@
 /obj/structure/milleniumsign
 	name = "sign"
 	desc = "It says M I L L E N I U M."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "millenium"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -316,7 +316,7 @@
 /obj/structure/anarchsign
 	name = "sign"
 	desc = "It says B A R."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "bar"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -334,7 +334,7 @@
 /obj/structure/chinesesign
 	name = "sign"
 	desc = "雨天和血的机会."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "chinese1"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -357,7 +357,7 @@
 /obj/structure/arc
 	name = "chinatown arc"
 	desc = "Cool chinese architecture."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "ark1"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -377,7 +377,7 @@
 /obj/structure/trad
 	name = "traditional lamp"
 	desc = "Cool chinese lamp."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "trad"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -385,7 +385,7 @@
 
 /obj/structure/vampipe
 	name = "pipes"
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "piping1"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -393,7 +393,7 @@
 
 /obj/structure/vamproofwall
 	name = "wall"
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "the_wall"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -402,7 +402,7 @@
 /obj/structure/hydrant
 	name = "hydrant"
 	desc = "Used for firefighting."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "hydrant"
 	anchored = TRUE
 
@@ -424,7 +424,7 @@
 /obj/structure/vampcar
 	name = "car"
 	desc = "It drives."
-	icon = 'modular_darkpack/modules/depreciated/icons/cars.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/cars.dmi'
 	icon_state = "taxi"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -442,7 +442,7 @@
 /obj/structure/roadblock
 	name = "\improper road block"
 	desc = "Protects places from walking in."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "roadblock"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -453,7 +453,7 @@
 	icon_state = "barrier"
 
 /obj/machinery/light/prince
-	icon = 'modular_darkpack/modules/depreciated/icons/icons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/icons.dmi'
 
 /obj/machinery/light/prince/ghost
 
@@ -465,7 +465,7 @@
 			var/datum/effect_system/spark_spread/s = new /datum/effect_system/spark_spread
 			s.set_up(5, 1, get_turf(src))
 			s.start()
-			playsound(loc, 'modular_darkpack/modules/depreciated/sound/explode.ogg', 100, TRUE)
+			playsound(loc, 'modular_darkpack/modules/deprecated/sound/explode.ogg', 100, TRUE)
 			qdel(src)
 
 /obj/machinery/light/prince/broken
@@ -474,7 +474,7 @@
 
 /obj/effect/decal/painting
 	name = "painting"
-	icon = 'modular_darkpack/modules/depreciated/icons/icons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/icons.dmi'
 	icon_state = "painting1"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -488,7 +488,7 @@
 /obj/structure/jesuscross
 	name = "Jesus Christ on a cross"
 	desc = "Jesus said, “Father, forgive them, for they do not know what they are doing.” And they divided up his clothes by casting lots (Luke 23:34)."
-	icon = 'modular_darkpack/modules/depreciated/icons/64x64.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/64x64.dmi'
 	icon_state = "cross"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -500,7 +500,7 @@
 /obj/structure/roadsign
 	name = "road sign"
 	desc = "Do not drive your car cluelessly."
-	icon = 'modular_darkpack/modules/depreciated/icons/32x48.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/32x48.dmi'
 	icon_state = "stop"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -553,7 +553,7 @@
 /obj/structure/barrels
 	name = "barrel"
 	desc = "Storage some liquids."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "barrel1"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -570,7 +570,7 @@
 /obj/structure/bricks
 	name = "bricks"
 	desc = "Building material."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "bricks"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -579,7 +579,7 @@
 
 /obj/effect/decal/pallet
 	name = "pallet"
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "under1"
 
 /obj/effect/decal/pallet/Initialize(mapload)
@@ -588,7 +588,7 @@
 
 /obj/effect/decal/trash
 	name = "trash"
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "trash1"
 
 /obj/effect/decal/trash/Initialize(mapload)
@@ -598,7 +598,7 @@
 /obj/cargotrain
 	name = "cargocrate"
 	desc = "It delivers a lot of things."
-	icon = 'modular_darkpack/modules/depreciated/icons/containers.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/containers.dmi'
 	icon_state = "1"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -625,7 +625,7 @@
 /obj/cargocrate
 	name = "cargocrate"
 	desc = "It delivers a lot of things."
-	icon = 'modular_darkpack/modules/depreciated/icons/containers.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/containers.dmi'
 	icon_state = "1"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -682,7 +682,7 @@
 /obj/structure/marketplace
 	name = "stock market"
 	desc = "Recent stocks visualization."
-	icon = 'modular_darkpack/modules/depreciated/icons/stonks.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/stonks.dmi'
 	icon_state = "marketplace"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -694,7 +694,7 @@
 /obj/structure/fuelstation
 	name = "fuel station"
 	desc = "Fuel your car here. 50 dollars per 1000 units."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "fuelstation"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -728,14 +728,14 @@
 			var/money_to_spend = round(gas_to_dispense/20)
 			G.stored_gasoline = min(1000, G.stored_gasoline+gas_to_dispense)
 			stored_money = max(0, stored_money-money_to_spend)
-			playsound(loc, 'modular_darkpack/modules/depreciated/sound/gas_fill.ogg', 50, TRUE)
+			playsound(loc, 'modular_darkpack/modules/deprecated/sound/gas_fill.ogg', 50, TRUE)
 			to_chat(user, "<span class='notice'>You fill [I].</span>")
 			say("Gas filled.")
 
 /obj/structure/bloodextractor
 	name = "blood extractor"
 	desc = "Extract blood in packs."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "bloodextractor"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -778,7 +778,7 @@
 
 /obj/structure/rack/tacobell
 	name = "table"
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "tacobell"
 
 /obj/structure/rack/tacobell/attack_hand(mob/living/user)
@@ -804,7 +804,7 @@
 
 /obj/structure/rack/bubway
 	name = "table"
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "bubway"
 
 /obj/structure/rack/bubway/attack_hand(mob/living/user)
@@ -831,7 +831,7 @@
 /obj/bacotell
 	name = "Baco Tell"
 	desc = "Eat some precious tacos and pizza!"
-	icon = 'modular_darkpack/modules/depreciated/icons/fastfood.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/fastfood.dmi'
 	icon_state = "bacotell"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -841,7 +841,7 @@
 /obj/bubway
 	name = "BubWay"
 	desc = "Eat some precious burgers and pizza!"
-	icon = 'modular_darkpack/modules/depreciated/icons/fastfood.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/fastfood.dmi'
 	icon_state = "bubway"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -851,7 +851,7 @@
 /obj/gummaguts
 	name = "Gumma Guts"
 	desc = "Eat some precious chicken nuggets and donuts!"
-	icon = 'modular_darkpack/modules/depreciated/icons/fastfood.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/fastfood.dmi'
 	icon_state = "gummaguts"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -860,7 +860,7 @@
 
 /obj/underplate
 	name = "underplate"
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "underplate"
 	plane = GAME_PLANE
 	layer = TABLE_LAYER
@@ -871,7 +871,7 @@
 
 /obj/order
 	name = "order sign"
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "order"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -879,7 +879,7 @@
 
 /obj/order1
 	name = "order screen"
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "order1"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -887,7 +887,7 @@
 
 /obj/order2
 	name = "order screen"
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "order2"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -895,7 +895,7 @@
 
 /obj/order3
 	name = "order screen"
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "order3"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -903,7 +903,7 @@
 
 /obj/order4
 	name = "order screen"
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "order4"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -912,7 +912,7 @@
 /obj/matrix
 	name = "matrix"
 	desc = "Suicide is no exit..."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "matrix"
 	plane = GAME_PLANE
 	layer = ABOVE_NORMAL_TURF_LAYER
@@ -981,7 +981,7 @@
 /obj/structure/billiard_table
 	name = "billiard table"
 	desc = "Come here, play some BALLS. I know you want it so much..."
-	icon = 'modular_darkpack/modules/depreciated/icons/32x48.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/32x48.dmi'
 	icon_state = "billiard1"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -995,7 +995,7 @@
 /obj/police_department
 	name = "San Francisco Police Department"
 	desc = "Stop right there you criminal scum! Nobody can break the law on my watch!!"
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "police"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -1005,7 +1005,7 @@
 /obj/structure/pole
 	name = "stripper pole"
 	desc = "A pole fastened to the ceiling and floor, used to show of ones goods to company."
-	icon = 'modular_darkpack/modules/depreciated/icons/64x64.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/64x64.dmi'
 	icon_state = "pole"
 	density = TRUE
 	anchored = TRUE
@@ -1064,7 +1064,7 @@
 /obj/structure/strip_club
 	name = "sign"
 	desc = "It says DO RA. Maybe it's some kind of strip club..."
-	icon = 'modular_darkpack/modules/depreciated/icons/48x48.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x48.dmi'
 	icon_state = "dora"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -1105,7 +1105,7 @@
 /obj/structure/fire_barrel
 	name = "barrel"
 	desc = "Some kind of light and warm source..."
-	icon = 'modular_darkpack/modules/depreciated/icons/icons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/icons.dmi'
 	icon_state = "barrel"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -1119,7 +1119,7 @@
 /obj/structure/fountain
 	name = "fountain"
 	desc = "Gothic water structure."
-	icon = 'modular_darkpack/modules/depreciated/icons/fountain.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/fountain.dmi'
 	icon_state = "fountain"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -1131,7 +1131,7 @@
 /obj/structure/coclock
 	name = "clock"
 	desc = "See the time."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "clock"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -1143,7 +1143,7 @@
 	to_chat(user, "<b>[SScity_time.timeofnight]</b>")
 
 /obj/structure/coclock/grandpa
-	icon = 'modular_darkpack/modules/depreciated/icons/grandpa_cock.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/grandpa_cock.dmi'
 	icon_state = "cock"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -1154,7 +1154,7 @@
 /turf/open/floor/plating/bloodshit
 	gender = PLURAL
 	name = "blood"
-	icon = 'modular_darkpack/modules/depreciated/icons/tiles.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/tiles.dmi'
 	icon_state = "blood"
 	flags_1 = NONE
 	attachment_holes = FALSE
@@ -1177,7 +1177,7 @@
 /obj/american_flag
 	name = "american flag"
 	desc = "PATRIOTHICC!!!"
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "flag_usa"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -1188,7 +1188,7 @@
 /obj/flag
 	name = "DO NOT USE"
 	desc = "This shouldn't be used. If you see this in-game, someone has fucked up."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "flag_usa"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -1261,7 +1261,7 @@
 
 /obj/effect/decal/graffiti
 	name = "graffiti"
-	icon = 'modular_darkpack/modules/depreciated/icons/32x48.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/32x48.dmi'
 	icon_state = "graffiti1"
 	pixel_z = 32
 	plane = GAME_PLANE
@@ -1271,7 +1271,7 @@
 
 /obj/effect/decal/graffiti/large
 	pixel_w = -16
-	icon = 'modular_darkpack/modules/depreciated/icons/64x64.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/64x64.dmi'
 	large = TRUE
 
 /obj/effect/decal/graffiti/Initialize(mapload)
@@ -1284,7 +1284,7 @@
 /obj/structure/roofstuff
 	name = "roof ventilation"
 	desc = "Air to inside."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "roof1"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -1313,14 +1313,14 @@
 	name = "hide carpet"
 	pixel_w = -16
 	pixel_z = -16
-	icon = 'modular_darkpack/modules/depreciated/icons/64x64.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/64x64.dmi'
 	icon_state = "kopatich"
 
 /obj/effect/decal/baalirune
 	name = "satanic rune"
 	pixel_w = -16
 	pixel_z = -16
-	icon = 'modular_darkpack/modules/depreciated/icons/64x64.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/64x64.dmi'
 	icon_state = "baali"
 	var/total_corpses = 0
 
@@ -1342,7 +1342,7 @@
 /obj/structure/vamptree
 	name = "tree"
 	desc = "Cute and tall flora."
-	icon = 'modular_darkpack/modules/depreciated/icons/trees.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/trees.dmi'
 	icon_state = "tree1"
 	plane = GAME_PLANE
 	layer = SPACEVINE_LAYER
@@ -1369,7 +1369,7 @@
 /obj/structure/vamptree/pine
 	name = "pine"
 	desc = "Cute and tall flora."
-	icon = 'modular_darkpack/modules/depreciated/icons/pines.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/pines.dmi'
 	icon_state = "pine1"
 	plane = GAME_PLANE
 	layer = SPACEVINE_LAYER
@@ -1409,19 +1409,19 @@
 /obj/structure/vampstatue/angel
 	name = "angel statue"
 	desc = "An angel stands before you. You're glad it's only stone."
-	icon = 'modular_darkpack/modules/depreciated/icons/64x64.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/64x64.dmi'
 	icon_state = "angelstatue"
 
 /obj/structure/vampstatue/cloaked
 	name = "cloaked figure"
 	desc = "He appears to be sitting."
-	icon = 'modular_darkpack/modules/depreciated/icons/32x48.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/32x48.dmi'
 	icon_state = "cloakedstatue"
 
 /obj/structure/bath
 	name = "bath"
 	desc = "Not big enough for hiding in."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "tub"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -1432,7 +1432,7 @@
 /obj/weapon_showcase
 	name = "weapon showcase"
 	desc = "Look, a gun."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "showcase"
 	density = TRUE
 	anchored = TRUE
@@ -1448,13 +1448,13 @@
 	name = "carpet"
 	pixel_w = -16
 	pixel_z = -16
-	icon = 'modular_darkpack/modules/depreciated/icons/64x64.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/64x64.dmi'
 	icon_state = "kover"
 
 /obj/structure/vamprocks
 	name = "rock"
 	desc = "Rokk."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "rock1"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -1469,7 +1469,7 @@
 /obj/structure/small_vamprocks
 	name = "rock"
 	desc = "Rokk."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "smallrock1"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -1483,7 +1483,7 @@
 /obj/structure/big_vamprocks
 	name = "rock"
 	desc = "Rokk."
-	icon = 'modular_darkpack/modules/depreciated/icons/64x64.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/64x64.dmi'
 	icon_state = "rock1"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -1499,7 +1499,7 @@
 /obj/structure/stalagmite
 	name = "stalagmite"
 	desc = "Rokk."
-	icon = 'modular_darkpack/modules/depreciated/icons/64x64.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/64x64.dmi'
 	icon_state = "stalagmite1"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -1515,7 +1515,7 @@
 /obj/were_ice
 	name = "ice block"
 	desc = "Stores some precious organs..."
-	icon = 'modular_darkpack/modules/depreciated/icons/werewolf_lupus.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/werewolf_lupus.dmi'
 	icon_state = "ice_man"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -1525,14 +1525,14 @@
 	icon_state = "ice_wolf"
 
 /obj/were_ice/crinos
-	icon = 'modular_darkpack/modules/depreciated/icons/werewolf.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/werewolf.dmi'
 	icon_state = "ice"
 	pixel_w = -8
 
 /obj/structure/bury_pit
 	name = "bury pit"
 	desc = "You can bury someone here."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "pit0"
 	plane = GAME_PLANE
 	layer = ABOVE_OPEN_TURF_LAYER

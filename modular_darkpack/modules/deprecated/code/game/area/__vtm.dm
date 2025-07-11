@@ -1,6 +1,6 @@
 /area/vtm
 	name = "San Francisco"
-	icon = 'modular_darkpack/modules/depreciated/icons/tiles.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/tiles.dmi'
 	icon_state = "sewer"
 	requires_power = FALSE
 	default_gravity = STANDARD_GRAVITY

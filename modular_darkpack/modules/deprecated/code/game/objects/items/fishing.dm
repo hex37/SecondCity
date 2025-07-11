@@ -1,9 +1,9 @@
 /obj/item/food/fish
 	desc = "Marine life."
-	icon = 'modular_darkpack/modules/depreciated/icons/48x32weapons.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x32weapons.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	w_class = WEIGHT_CLASS_SMALL
-	eatsound = 'modular_darkpack/modules/depreciated/sound/eat.ogg'
+	eatsound = 'modular_darkpack/modules/deprecated/sound/eat.ogg'
 	tastes = list("fish" = 1)
 	food_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/protein = 3)
 	foodtypes = RAW | MEAT
@@ -43,19 +43,19 @@
 /obj/item/fishing_rod
 	name = "fishing rod"
 	icon_state = "fishing"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	w_class = WEIGHT_CLASS_BULKY
-	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
+	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
 	var/catching = FALSE
 
 /obj/item/fishing_rod/attack_self(mob/user)
 	. = ..()
 	if(isturf(user.loc))
 		forceMove(user.loc)
-		onflooricon = 'modular_darkpack/modules/depreciated/icons/64x64.dmi'
-		icon = 'modular_darkpack/modules/depreciated/icons/64x64.dmi'
+		onflooricon = 'modular_darkpack/modules/deprecated/icons/64x64.dmi'
+		icon = 'modular_darkpack/modules/deprecated/icons/64x64.dmi'
 		dir = user.dir
 		anchored = TRUE
 
@@ -78,7 +78,7 @@
 		if(!catching)
 			catching = TRUE
 			user.isfishing = TRUE
-			playsound(loc, 'modular_darkpack/modules/depreciated/sound/catching.ogg', 50, FALSE)
+			playsound(loc, 'modular_darkpack/modules/deprecated/sound/catching.ogg', 50, FALSE)
 			if(do_mob(user, src, 15 SECONDS))
 				catching = FALSE
 				user.isfishing = FALSE
@@ -93,7 +93,7 @@
 				else
 					IT = /obj/item/food/fish/shark
 				new IT(user.loc)
-				playsound(loc, 'modular_darkpack/modules/depreciated/sound/catched.ogg', 50, FALSE)
+				playsound(loc, 'modular_darkpack/modules/deprecated/sound/catched.ogg', 50, FALSE)
 			else
 				catching = FALSE
 				user.isfishing = FALSE

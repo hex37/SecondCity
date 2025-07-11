@@ -1,6 +1,6 @@
 /atom/movable/screen/blood
 	name = "bloodpool"
-	icon = 'modular_darkpack/modules/depreciated/icons/ui/bloodpool.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ui/bloodpool.dmi'
 	icon_state = "blood0"
 	layer = HUD_LAYER
 	plane = HUD_PLANE

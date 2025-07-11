@@ -86,7 +86,7 @@ GLOBAL_LIST_INIT(caesar_cipher, list(
 /obj/sarcophagus
 	name = "Unknown Sarcophagus"
 	desc = "Contains elder devil..."
-	icon = 'modular_darkpack/modules/depreciated/icons/48x32weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x32weapons.dmi'
 	icon_state = "b_sarcophagus"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -103,8 +103,8 @@ GLOBAL_LIST_INIT(caesar_cipher, list(
 			if(password == uppertext(pass))
 				icon_state = "b_sarcophagus-open1"
 				to_chat(world, "<span class='userdanger'><b>UNKNOWN SARCOPHAGUS HAS BEEN OPENED</b></span>")
-				SEND_SOUND(world, sound('modular_darkpack/modules/depreciated/sound/announce.ogg'))
-				playsound(get_turf(src), 'modular_darkpack/modules/depreciated/sound/mp_hello.ogg', 100, TRUE)
+				SEND_SOUND(world, sound('modular_darkpack/modules/deprecated/sound/announce.ogg'))
+				playsound(get_turf(src), 'modular_darkpack/modules/deprecated/sound/mp_hello.ogg', 100, TRUE)
 				spawn(200)
 					icon_state = "b_sarcophagus-open0"
 					new /mob/living/simple_animal/hostile/megafauna/wendigo(loc)
@@ -117,19 +117,19 @@ GLOBAL_LIST_INIT(caesar_cipher, list(
 	else
 		passkey = rand(-15, -5)
 	//to_chat(world, "<span class='userdanger'><b>UNKNOWN SARCOPHAGUS POSITION HAS BEEN LEAKED</b></span>")
-	SEND_SOUND(world, sound('modular_darkpack/modules/depreciated/sound/announce.ogg'))
+	SEND_SOUND(world, sound('modular_darkpack/modules/deprecated/sound/announce.ogg'))
 
 /obj/item/sarcophagus_key
 	name = "sarcophagus key"
 	desc = "The secrets of elder devil..."
 	icon_state = "sarcophagus_key"
-	icon = 'modular_darkpack/modules/depreciated/icons/icons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/icons.dmi'
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/fake_sarcophagus
 	name = "Voivode-in-Waiting's Sarcophagus"
 	desc = "The Voivode-in-Waiting lies here."
-	icon = 'modular_darkpack/modules/depreciated/icons/48x32weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x32weapons.dmi'
 	icon_state = "b_sarcophagus"
 	density = TRUE
 	anchored = TRUE

@@ -8,7 +8,7 @@
 	name = "Animalism power name"
 	desc = "Animalism power description"
 
-	effect_sound = 'modular_darkpack/modules/depreciated/sound/wolves.ogg'
+	effect_sound = 'modular_darkpack/modules/deprecated/sound/wolves.ogg'
 
 //SUMMON RAT
 /datum/discipline_power/animalism/summon_rat
@@ -73,7 +73,7 @@
 /obj/effect/spectral_wolf
 	name = "Spectral Wolf"
 	desc = "Bites enemies in other dimensions."
-	icon = 'modular_darkpack/modules/depreciated/icons/icons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/icons.dmi'
 	icon_state = "wolf"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER

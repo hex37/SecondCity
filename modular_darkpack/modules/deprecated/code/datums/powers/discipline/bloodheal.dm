@@ -12,7 +12,7 @@
 	name = "Bloodheal power name"
 	desc = "Bloodheal power description"
 
-	activate_sound = 'modular_darkpack/modules/depreciated/sound/bloodhealing.ogg'
+	activate_sound = 'modular_darkpack/modules/deprecated/sound/bloodhealing.ogg'
 
 	level = 1
 	check_flags = DISC_CHECK_TORPORED

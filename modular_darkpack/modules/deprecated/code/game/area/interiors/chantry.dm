@@ -1,7 +1,7 @@
 /area/vtm/interior/theatre
 	name = "Theatre"
 	icon_state = "theatre"
-	ambient_buzz = 'modular_darkpack/modules/depreciated/sound/ambience/theatre.ogg'
+	ambient_buzz = 'modular_darkpack/modules/deprecated/sound/ambience/theatre.ogg'
 	zone_type = "elysium"
 	fire_controled = TRUE
 

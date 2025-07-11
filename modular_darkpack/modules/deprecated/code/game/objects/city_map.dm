@@ -1,7 +1,7 @@
 /obj/structure/vampmap
 	name = "\improper map"
 	desc = "Locate yourself now."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "map"
 	plane = GAME_PLANE
 	layer = ABOVE_MOB_LAYER
@@ -30,7 +30,7 @@
 	var/obj/damap/bar/BA = new(user)
 	var/obj/damap/hospital/HS = new(user)
 	var/obj/overlay/AM = new(DAMAP)
-	AM.icon = 'modular_darkpack/modules/depreciated/icons/disciplines.dmi'
+	AM.icon = 'modular_darkpack/modules/deprecated/icons/disciplines.dmi'
 	AM.icon_state = "target"
 	AM.layer = ABOVE_HUD_LAYER
 	AM.pixel_x = x-4
@@ -61,61 +61,61 @@
 	qdel(HS)
 
 /obj/damap
-	icon = 'modular_darkpack/modules/depreciated/icons/map.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/map.dmi'
 	icon_state = "map"
 	plane = GAME_PLANE
 	layer = ABOVE_NORMAL_TURF_LAYER
 
 /obj/damap/supply
-	icon = 'modular_darkpack/modules/depreciated/icons/disciplines.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/disciplines.dmi'
 	icon_state = "supply"
 	plane = GAME_PLANE
 	layer = ABOVE_NORMAL_TURF_LAYER
 
 /obj/damap/church
-	icon = 'modular_darkpack/modules/depreciated/icons/disciplines.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/disciplines.dmi'
 	icon_state = "church"
 	plane = GAME_PLANE
 	layer = ABOVE_NORMAL_TURF_LAYER
 
 /obj/damap/graveyard
-	icon = 'modular_darkpack/modules/depreciated/icons/disciplines.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/disciplines.dmi'
 	icon_state = "graveyard"
 	plane = GAME_PLANE
 	layer = ABOVE_NORMAL_TURF_LAYER
 
 /obj/damap/hotel
-	icon = 'modular_darkpack/modules/depreciated/icons/disciplines.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/disciplines.dmi'
 	icon_state = "hotel"
 	plane = GAME_PLANE
 	layer = ABOVE_NORMAL_TURF_LAYER
 
 /obj/damap/tower
-	icon = 'modular_darkpack/modules/depreciated/icons/disciplines.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/disciplines.dmi'
 	icon_state = "tower"
 	plane = GAME_PLANE
 	layer = ABOVE_NORMAL_TURF_LAYER
 
 /obj/damap/clean
-	icon = 'modular_darkpack/modules/depreciated/icons/disciplines.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/disciplines.dmi'
 	icon_state = "clean"
 	plane = GAME_PLANE
 	layer = ABOVE_NORMAL_TURF_LAYER
 
 /obj/damap/theatre
-	icon = 'modular_darkpack/modules/depreciated/icons/disciplines.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/disciplines.dmi'
 	icon_state = "theatre"
 	plane = GAME_PLANE
 	layer = ABOVE_NORMAL_TURF_LAYER
 
 /obj/damap/bar
-	icon = 'modular_darkpack/modules/depreciated/icons/disciplines.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/disciplines.dmi'
 	icon_state = "bar"
 	plane = GAME_PLANE
 	layer = ABOVE_NORMAL_TURF_LAYER
 
 /obj/damap/hospital
-	icon = 'modular_darkpack/modules/depreciated/icons/disciplines.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/disciplines.dmi'
 	icon_state = "hospital"
 	plane = GAME_PLANE
 	layer = ABOVE_NORMAL_TURF_LAYER

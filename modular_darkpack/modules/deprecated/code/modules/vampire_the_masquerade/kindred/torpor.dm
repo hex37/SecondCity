@@ -91,7 +91,7 @@
 /atom/movable/screen/alert/untorpor
 	name = "Awaken"
 	desc = "Free yourself of your Torpor."
-	icon = 'modular_darkpack/modules/depreciated/icons/hud/screen_alert.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/hud/screen_alert.dmi'
 	icon_state = "awaken"
 
 /atom/movable/screen/alert/untorpor/Click()

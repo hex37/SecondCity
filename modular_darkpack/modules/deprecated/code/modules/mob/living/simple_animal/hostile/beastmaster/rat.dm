@@ -1,7 +1,7 @@
 /mob/living/simple_animal/hostile/beastmaster/rat
 	name = "rat"
 	desc = "It's a rat."
-	icon = 'modular_darkpack/modules/depreciated/icons/icons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/icons.dmi'
 	icon_state = "rat"
 	icon_living = "rat"
 	icon_dead = "rat_dead"
@@ -9,7 +9,7 @@
 	emote_see = list("shakes its head.", "shivers.")
 	attack_verb_continuous = "bites"
 	attack_verb_simple = "bite"
-	attack_sound = 'modular_darkpack/modules/depreciated/sound/rat.ogg'
+	attack_sound = 'modular_darkpack/modules/deprecated/sound/rat.ogg'
 	speak_chance = 0
 	turns_per_move = 5
 	see_in_dark = 6

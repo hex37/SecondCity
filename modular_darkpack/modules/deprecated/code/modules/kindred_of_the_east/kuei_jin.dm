@@ -65,7 +65,7 @@
 	var/fool_fails = 0
 
 /atom/breathing_overlay
-	icon = 'modular_darkpack/modules/depreciated/icons/ui/kuei_jin.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ui/kuei_jin.dmi'
 	icon_state = "drain"
 	alpha = 64
 	density = FALSE
@@ -86,7 +86,7 @@
 
 /atom/movable/screen/chi_pool
 	name = "Chi Pool"
-	icon = 'modular_darkpack/modules/depreciated/icons/ui/chi.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ui/chi.dmi'
 	icon_state = "base"
 	layer = HUD_LAYER
 	plane = HUD_PLANE
@@ -94,35 +94,35 @@
 
 /atom/movable/screen/yang_chi
 	name = "Yang Chi"
-	icon = 'modular_darkpack/modules/depreciated/icons/ui/chi.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ui/chi.dmi'
 	icon_state = "yang-0"
 	layer = HUD_LAYER
 	plane = HUD_PLANE
 
 /atom/movable/screen/yin_chi
 	name = "Yin Chi"
-	icon = 'modular_darkpack/modules/depreciated/icons/ui/chi.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ui/chi.dmi'
 	icon_state = "yin-0"
 	layer = HUD_LAYER
 	plane = HUD_PLANE
 
 /atom/movable/screen/imbalance_chi
 	name = "Chi Imbalance"
-	icon = 'modular_darkpack/modules/depreciated/icons/ui/chi.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ui/chi.dmi'
 	icon_state = "base"
 	layer = HUD_LAYER-1
 	plane = HUD_PLANE
 
 /atom/movable/screen/demon_chi
 	name = "Demon Chi"
-	icon = 'modular_darkpack/modules/depreciated/icons/ui/chi.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ui/chi.dmi'
 	icon_state = "base"
 	layer = HUD_LAYER
 	plane = HUD_PLANE
 
 /atom/movable/screen/chi_pool/Initialize(mapload)
 	. = ..()
-	upper_layer = image(icon = 'modular_darkpack/modules/depreciated/icons/ui/chi.dmi', icon_state = "add", layer = HUD_LAYER+1)
+	upper_layer = image(icon = 'modular_darkpack/modules/deprecated/icons/ui/chi.dmi', icon_state = "add", layer = HUD_LAYER+1)
 	add_overlay(upper_layer)
 
 /atom/movable/screen/chi_pool/Click()
@@ -310,10 +310,10 @@
 									if(!H.warrant && !H.ignores_warrant)
 										if(H.killed_count >= 5)
 											H.warrant = TRUE
-											SEND_SOUND(H, sound('modular_darkpack/modules/depreciated/sound/suspect.ogg', 0, 0, 75))
+											SEND_SOUND(H, sound('modular_darkpack/modules/deprecated/sound/suspect.ogg', 0, 0, 75))
 											to_chat(H, "<span class='userdanger'><b>POLICE ASSAULT IN PROGRESS</b></span>")
 										else
-											SEND_SOUND(H, sound('modular_darkpack/modules/depreciated/sound/sus.ogg', 0, 0, 75))
+											SEND_SOUND(H, sound('modular_darkpack/modules/deprecated/sound/sus.ogg', 0, 0, 75))
 											to_chat(H, "<span class='userdanger'><b>SUSPICIOUS ACTION (corpse)</b></span>")
 			for(var/obj/item/I in H.contents)
 				if(I)
@@ -329,10 +329,10 @@
 										if(!H.warrant && !H.ignores_warrant)
 											if(H.killed_count >= 5)
 												H.warrant = TRUE
-												SEND_SOUND(H, sound('modular_darkpack/modules/depreciated/sound/suspect.ogg', 0, 0, 75))
+												SEND_SOUND(H, sound('modular_darkpack/modules/deprecated/sound/suspect.ogg', 0, 0, 75))
 												to_chat(H, "<span class='userdanger'><b>POLICE ASSAULT IN PROGRESS</b></span>")
 											else
-												SEND_SOUND(H, sound('modular_darkpack/modules/depreciated/sound/sus.ogg', 0, 0, 75))
+												SEND_SOUND(H, sound('modular_darkpack/modules/deprecated/sound/sus.ogg', 0, 0, 75))
 												to_chat(H, "<span class='userdanger'><b>SUSPICIOUS ACTION (equipment)</b></span>")
 
 	if(H.key && (H.stat <= HARD_CRIT) && H.mind.dharma)
@@ -428,9 +428,9 @@
 	name = "Inhale Chi"
 	desc = "Get chi from a target by inhaling their breathe."
 	button_icon_state = "breathe"
-	button_icon = 'modular_darkpack/modules/depreciated/icons/ui/kuei_jin.dmi'
+	button_icon = 'modular_darkpack/modules/deprecated/icons/ui/kuei_jin.dmi'
 	background_icon_state = "discipline"
-	icon_icon = 'modular_darkpack/modules/depreciated/icons/ui/kuei_jin.dmi'
+	icon_icon = 'modular_darkpack/modules/deprecated/icons/ui/kuei_jin.dmi'
 	check_flags = AB_CHECK_HANDS_BLOCKED|AB_CHECK_IMMOBILE|AB_CHECK_LYING|AB_CHECK_CONSCIOUS
 	var/cooldown = 10 SECONDS
 	COOLDOWN_DECLARE(use)
@@ -497,7 +497,7 @@
 	var/atom/movable/chi_particle = new (get_turf(victim))
 	chi_particle.density = FALSE
 	chi_particle.anchored = TRUE
-	chi_particle.icon = 'modular_darkpack/modules/depreciated/icons/ui/kuei_jin.dmi'
+	chi_particle.icon = 'modular_darkpack/modules/deprecated/icons/ui/kuei_jin.dmi'
 	chi_particle.icon_state = "drain"
 	var/matrix/face_kueijin = matrix()
 	face_kueijin.Turn(get_angle_raw(victim.x, victim.y, 0, 0, owner.x, owner.y, 0, 0))
@@ -511,9 +511,9 @@
 	name = "Area Chi"
 	desc = "Get chi from an area by injecting the tides."
 	button_icon_state = "area"
-	button_icon = 'modular_darkpack/modules/depreciated/icons/ui/kuei_jin.dmi'
+	button_icon = 'modular_darkpack/modules/deprecated/icons/ui/kuei_jin.dmi'
 	background_icon_state = "discipline"
-	icon_icon = 'modular_darkpack/modules/depreciated/icons/ui/kuei_jin.dmi'
+	icon_icon = 'modular_darkpack/modules/deprecated/icons/ui/kuei_jin.dmi'
 	check_flags = AB_CHECK_HANDS_BLOCKED|AB_CHECK_IMMOBILE|AB_CHECK_LYING|AB_CHECK_CONSCIOUS
 	var/cooldown = 30 SECONDS
 	COOLDOWN_DECLARE(use)
@@ -545,9 +545,9 @@
 	name = "Yin Reanimate"
 	desc = "Reanimate your body with Yin Chi energy."
 	button_icon_state = "yin"
-	button_icon = 'modular_darkpack/modules/depreciated/icons/ui/kuei_jin.dmi'
+	button_icon = 'modular_darkpack/modules/deprecated/icons/ui/kuei_jin.dmi'
 	background_icon_state = "discipline"
-	icon_icon = 'modular_darkpack/modules/depreciated/icons/ui/kuei_jin.dmi'
+	icon_icon = 'modular_darkpack/modules/deprecated/icons/ui/kuei_jin.dmi'
 	check_flags = AB_CHECK_HANDS_BLOCKED|AB_CHECK_IMMOBILE|AB_CHECK_LYING|AB_CHECK_CONSCIOUS
 	vampiric = TRUE
 	var/cooldown = 3 SECONDS
@@ -568,7 +568,7 @@
 		return
 	COOLDOWN_START(kueijin.mind.dharma, chi_heal, cooldown)
 
-	SEND_SOUND(usr, sound('modular_darkpack/modules/depreciated/sound/chi_use.ogg', 0, 0, 75))
+	SEND_SOUND(usr, sound('modular_darkpack/modules/deprecated/sound/chi_use.ogg', 0, 0, 75))
 	kueijin.visible_message("<span class='warning'>Some of [kueijin]'s visible injuries disappear!</span>", "<span class='warning'>Some of your injuries disappear!</span>")
 	kueijin.mind.dharma?.animated = "Yin"
 	kueijin.skin_tone = get_vamp_skin_color(kueijin.skin_tone)
@@ -604,9 +604,9 @@
 	name = "Yang Reanimate"
 	desc = "Reanimate your body with Yang Chi energy."
 	button_icon_state = "yang"
-	button_icon = 'modular_darkpack/modules/depreciated/icons/ui/kuei_jin.dmi'
+	button_icon = 'modular_darkpack/modules/deprecated/icons/ui/kuei_jin.dmi'
 	background_icon_state = "discipline"
-	icon_icon = 'modular_darkpack/modules/depreciated/icons/ui/kuei_jin.dmi'
+	icon_icon = 'modular_darkpack/modules/deprecated/icons/ui/kuei_jin.dmi'
 	check_flags = AB_CHECK_HANDS_BLOCKED|AB_CHECK_IMMOBILE|AB_CHECK_LYING|AB_CHECK_CONSCIOUS
 	vampiric = TRUE
 	var/cooldown = 3 SECONDS
@@ -627,7 +627,7 @@
 		return
 	COOLDOWN_START(kueijin.mind.dharma, chi_heal, cooldown)
 
-	SEND_SOUND(usr, sound('modular_darkpack/modules/depreciated/sound/chi_use.ogg', 0, 0, 75))
+	SEND_SOUND(usr, sound('modular_darkpack/modules/deprecated/sound/chi_use.ogg', 0, 0, 75))
 	kueijin.visible_message("<span class='warning'>Some of [kueijin]'s visible injuries disappear!</span>", "<span class='warning'>Some of your injuries disappear!</span>")
 	kueijin.mind.dharma?.animated = "Yang"
 	kueijin.skin_tone = kueijin.mind.dharma?.initial_skin_color
@@ -663,9 +663,9 @@
 	name = "Rebalance"
 	desc = "Rebalance Dharma virtues."
 	button_icon_state = "assign"
-	button_icon = 'modular_darkpack/modules/depreciated/icons/ui/kuei_jin.dmi'
+	button_icon = 'modular_darkpack/modules/deprecated/icons/ui/kuei_jin.dmi'
 	background_icon_state = "discipline"
-	icon_icon = 'modular_darkpack/modules/depreciated/icons/ui/kuei_jin.dmi'
+	icon_icon = 'modular_darkpack/modules/deprecated/icons/ui/kuei_jin.dmi'
 	check_flags = AB_CHECK_HANDS_BLOCKED|AB_CHECK_IMMOBILE|AB_CHECK_LYING|AB_CHECK_CONSCIOUS
 
 /datum/action/rebalance/Trigger()

@@ -130,7 +130,7 @@
 
 /obj/effect/decal/gut_floor
 	name = "gut floor"
-	icon = 'modular_darkpack/modules/depreciated/icons/tiles.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/tiles.dmi'
 	icon_state = "tzimisce_floor"
 
 /datum/movespeed_modifier/centipede
@@ -176,23 +176,23 @@
 	category = CAT_TZIMISCE
 
 /obj/structure/chair/old/tzimisce
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "tzimisce_stool"
 
 /obj/item/guts
 	name = "guts"
 	desc = "Just blood and guts..."
 	icon_state = "guts"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/spine
 	name = "spine"
 	desc = "If only I had control..."
 	icon_state = "spine"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	w_class = WEIGHT_CLASS_SMALL
 
 /datum/crafting_recipe/tzi_biter
@@ -222,7 +222,7 @@
 /mob/living/simple_animal/hostile/biter
 	name = "biter"
 	desc = "A ferocious, fang-bearing creature that resembles a spider."
-	icon = 'modular_darkpack/modules/depreciated/icons/mobs.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/mobs.dmi'
 	icon_state = "biter"
 	icon_living = "biter"
 	icon_dead = "biter_dead"
@@ -280,7 +280,7 @@
 /mob/living/simple_animal/hostile/fister
 	name = "fister"
 	desc = "True abomination walking on both hands."
-	icon = 'modular_darkpack/modules/depreciated/icons/mobs.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/mobs.dmi'
 	icon_state = "fister"
 	icon_living = "fister"
 	icon_dead = "fister_dead"
@@ -307,7 +307,7 @@
 /mob/living/simple_animal/hostile/tanker
 	name = "tanker"
 	desc = "The peak of abominations armor. Unbelievably undamagable..."
-	icon = 'modular_darkpack/modules/depreciated/icons/mobs.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/mobs.dmi'
 	icon_state = "tanker"
 	icon_living = "tanker"
 	icon_dead = "tanker_dead"
@@ -333,7 +333,7 @@
 /mob/living/simple_animal/hostile/gangrel
 	name = "Gangrel Form"
 	desc = "The peak of abominations armor. Unbelievably undamagable..."
-	icon = 'modular_darkpack/modules/depreciated/icons/32x48.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/32x48.dmi'
 	icon_state = "gangrel_f"
 	icon_living = "gangrel_f"
 	mob_biotypes = MOB_ORGANIC|MOB_HUMANOID
@@ -377,7 +377,7 @@
 /mob/living/simple_animal/hostile/gargoyle
 	name = "Gargoyle"
 	desc = "Stone-skinned..."
-	icon = 'modular_darkpack/modules/depreciated/icons/32x48.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/32x48.dmi'
 	icon_state = "gargoyle_m"
 	icon_living = "gargoyle_m"
 	mob_biotypes = MOB_ORGANIC|MOB_HUMANOID
@@ -439,7 +439,7 @@
 /mob/living/simple_animal/hostile/tzimisce_beast
 	name = "Tzimisce Beast Form"
 	desc = "The peak of abominations armor. Unbelievably undamagable..."
-	icon = 'modular_darkpack/modules/depreciated/icons/64x64.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/64x64.dmi'
 	icon_state = "weretzi"
 	icon_living = "weretzi"
 	pixel_w = -16
@@ -467,7 +467,7 @@
 /mob/living/simple_animal/hostile/bloodcrawler
 	name = "Tzimisce Blood Form"
 	desc = "The peak of abominations. Unbelievably undamagable..."
-	icon = 'modular_darkpack/modules/depreciated/icons/mobs.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/mobs.dmi'
 	icon_state = "liquid"
 	icon_living = "liquid"
 	mob_biotypes = MOB_ORGANIC|MOB_HUMANOID
@@ -501,14 +501,14 @@
 	name = "bag of ground"
 	desc = "Boghatyrskaya sila taitsa zdies'..."
 	icon_state = "dirt"
-	icon = 'modular_darkpack/modules/depreciated/icons/icons.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/icons.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/extra_arm
 	name = "extra arm installer"
 	desc = "Distantly related to the technology of the Man-Machine Interface, this state-of-the-art syndicate device adapts your nervous and circulatory system to the presence of an extra limb..."
-	icon = 'modular_darkpack/modules/depreciated/icons/icons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/icons.dmi'
 	icon_state = "vicissitude"
 	var/used = FALSE
 

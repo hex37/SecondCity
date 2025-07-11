@@ -22,17 +22,17 @@
 /obj/item/vamp/phone
 	name = "\improper phone"
 	desc = "A portable device to call anyone you want."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "phone0"
 	inhand_icon_state = "phone0"
-	lefthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	righthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
+	lefthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	righthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
 	item_flags = NOBLUDGEON
 	flags_1 = HEAR_1
 	w_class = WEIGHT_CLASS_SMALL
 	armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, RAD = 0, FIRE = 100, ACID = 100)
 	resistance_flags = FIRE_PROOF | ACID_PROOF
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 
 	var/exchange_num = 513
 	var/list/contacts = list()
@@ -45,7 +45,7 @@
 	var/talking = FALSE
 	var/choosed_number = ""
 	var/last_call = 0
-	var/call_sound = 'modular_darkpack/modules/depreciated/sound/call.ogg'
+	var/call_sound = 'modular_darkpack/modules/deprecated/sound/call.ogg'
 	var/can_fold = 1
 	var/interface = "Telephone"
 	var/silence = FALSE
@@ -180,7 +180,7 @@
 					online.talking = FALSE
 			if(online)
 				if(!silence)
-					playsound(online, 'modular_darkpack/modules/depreciated/sound/phonestop.ogg', 25, FALSE)
+					playsound(online, 'modular_darkpack/modules/deprecated/sound/phonestop.ogg', 25, FALSE)
 				online.online = null
 				online = null
 			.= TRUE
@@ -222,7 +222,7 @@
 			if(online)
 
 				if(!silence)
-					playsound(online, 'modular_darkpack/modules/depreciated/sound/phonestop.ogg', 25, FALSE)
+					playsound(online, 'modular_darkpack/modules/deprecated/sound/phonestop.ogg', 25, FALSE)
 				online.talking = FALSE
 
 
@@ -318,10 +318,10 @@
 			if(!online && !blocked)
 			// If the phone is not flipped or the phone user has left the city and they are not blocked.
 				if(choosed_number == "#111")
-					call_sound = 'modular_darkpack/modules/depreciated/sound/call.ogg'
+					call_sound = 'modular_darkpack/modules/deprecated/sound/call.ogg'
 					to_chat(usr, "<span class='notice'>Settings are now reset to default.</span>")
 				else if(choosed_number == "#228")
-					call_sound = 'modular_darkpack/modules/depreciated/sound/nokia.ogg'
+					call_sound = 'modular_darkpack/modules/deprecated/sound/nokia.ogg'
 					to_chat(usr, "<span class='notice'>Code activated.</span>")
 				else if(choosed_number == "#666")
 					call_sound = 'sound/voice/human/malescream_6.ogg'
@@ -578,12 +578,12 @@
 		last_call = 0
 		if(online)
 			if(online.silence == FALSE)
-				playsound(src, 'modular_darkpack/modules/depreciated/sound/phonestop.ogg', 25, FALSE)
+				playsound(src, 'modular_darkpack/modules/deprecated/sound/phonestop.ogg', 25, FALSE)
 			online.online = null
 			online = null
 	if(!talking && online)
 		if(online.silence == FALSE)
-			playsound(src, 'modular_darkpack/modules/depreciated/sound/phone.ogg', 10, FALSE)
+			playsound(src, 'modular_darkpack/modules/deprecated/sound/phone.ogg', 10, FALSE)
 			playsound(online, online.call_sound, 25, FALSE)
 		addtimer(CALLBACK(src, PROC_REF(Recall), online, usar), 20)
 //	usar << browse(null, "window=phone")
@@ -601,7 +601,7 @@
 					if(online)
 						online.talking = FALSE
 				if(online)
-					playsound(online, 'modular_darkpack/modules/depreciated/sound/phonestop.ogg', 25, FALSE)
+					playsound(online, 'modular_darkpack/modules/deprecated/sound/phonestop.ogg', 25, FALSE)
 					online.online = null
 					online = null
 			if("accept")
@@ -615,7 +615,7 @@
 			if("decline")
 				talking = FALSE
 				if(online)
-					playsound(online, 'modular_darkpack/modules/depreciated/sound/phonestop.ogg', 25, FALSE)
+					playsound(online, 'modular_darkpack/modules/deprecated/sound/phonestop.ogg', 25, FALSE)
 					online.online = null
 					online.talking = FALSE
 					online = null
@@ -635,10 +635,10 @@
 						online.OpenMenu(L)
 				else
 					if(choosed_number == "#111")
-						call_sound = 'modular_darkpack/modules/depreciated/sound/call.ogg'
+						call_sound = 'modular_darkpack/modules/deprecated/sound/call.ogg'
 						to_chat(usr, "<span class='notice'>Settings are now reset to default.</span>")
 					else if(choosed_number == "#228")
-						call_sound = 'modular_darkpack/modules/depreciated/sound/nokia.ogg'
+						call_sound = 'modular_darkpack/modules/deprecated/sound/nokia.ogg'
 						to_chat(usr, "<span class='notice'>Code activated.</span>")
 					else if(choosed_number == "#666")
 						call_sound = 'sound/voice/human/malescream_6.ogg'
@@ -730,9 +730,9 @@
 					// Speech will be scrambled if the speaker doesn't work well with technology
 					if (HAS_TRAIT(SPK, TRAIT_REJECTED_BY_TECHNOLOGY))
 						message = scramble_lasombra_message(message)
-						playsound(online, 'modular_darkpack/modules/depreciated/sound/lasombra_whisper.ogg', 50, FALSE)
+						playsound(online, 'modular_darkpack/modules/deprecated/sound/lasombra_whisper.ogg', 50, FALSE)
 					else
-						playsound(online, 'modular_darkpack/modules/depreciated/sound/phonetalk.ogg', 50, FALSE)
+						playsound(online, 'modular_darkpack/modules/deprecated/sound/phonetalk.ogg', 50, FALSE)
 
 				var/obj/phonevoice/VOIC = new(online)
 				VOIC.name = voice_saying
@@ -742,8 +742,8 @@
 
 /obj/item/vamp/phone/street
 	desc = "An ordinary street payphone"
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "payphone"
 	anchored = TRUE
 	number = "1447"
@@ -756,7 +756,7 @@
 
 /obj/item/vamp/phone/clean
 	desc = "The usual phone of a cleaning company used to communicate with employees"
-	icon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	icon_state = "redphone"
 	anchored = TRUE
 	number = "700 4424"
@@ -768,7 +768,7 @@
 
 /obj/item/vamp/phone/emergency
 	desc = "The 911 dispatch phone"
-	icon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	icon_state = "redphone"
 	anchored = TRUE
 	number = "911"

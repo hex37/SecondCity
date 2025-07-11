@@ -73,7 +73,7 @@ SUBSYSTEM_DEF(cityweather)
 					animate(V, transform = null, pixel_w = 0, pixel_z = 0, alpha = 255)
 					V.layer = SPACEVINE_LAYER
 					V.plane = GAME_PLANE
-					V.icon = 'modular_darkpack/modules/depreciated/icons/newweather.dmi'
+					V.icon = 'modular_darkpack/modules/deprecated/icons/newweather.dmi'
 					V.icon_state = "rain[rand(1, 15)]"
 					V.pixel_w = -16
 					V.pixel_z = -32
@@ -98,7 +98,7 @@ SUBSYSTEM_DEF(cityweather)
 					animate(V, transform = null, pixel_w = 0, pixel_z = 0, alpha = 255)
 					V.layer = SPACEVINE_LAYER
 					V.plane = GAME_PLANE
-					V.icon = 'modular_darkpack/modules/depreciated/icons/newweather.dmi'
+					V.icon = 'modular_darkpack/modules/deprecated/icons/newweather.dmi'
 					V.icon_state = "snow[rand(1, 15)]"
 					V.pixel_w = -16
 					V.pixel_z = 0
@@ -120,7 +120,7 @@ SUBSYSTEM_DEF(cityweather)
 					animate(V, transform = null, pixel_w = 0, pixel_z = 0, alpha = 255)
 					V.layer = SPACEVINE_LAYER
 					V.plane = GAME_PLANE
-					V.icon = 'modular_darkpack/modules/depreciated/icons/fog.dmi'
+					V.icon = 'modular_darkpack/modules/deprecated/icons/fog.dmi'
 					V.icon_state = "fog"
 					V.pixel_w = -96
 					V.pixel_z = -96
@@ -169,7 +169,7 @@ SUBSYSTEM_DEF(cityweather)
 		to_chat(user, "[time], [weath]")
 
 /obj/effect/realistic_fog
-	icon = 'modular_darkpack/modules/depreciated/icons/fog.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/fog.dmi'
 	icon_state = "fog"
 	alpha = 0
 	plane = GAME_PLANE
@@ -186,7 +186,7 @@ SUBSYSTEM_DEF(cityweather)
 	animate(transform = null, pixel_x = 0, pixel_y = 0, alpha = rand(5, 21), time = rand(100, 200))
 
 /obj/effect/new_rain
-	icon = 'modular_darkpack/modules/depreciated/icons/newweather.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/newweather.dmi'
 	icon_state = "rain1"
 	alpha = 0
 	plane = GAME_PLANE
@@ -211,7 +211,7 @@ SUBSYSTEM_DEF(cityweather)
 		AM.wash(CLEAN_WASH)
 
 /obj/effect/new_snow
-	icon = 'modular_darkpack/modules/depreciated/icons/newweather.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/newweather.dmi'
 	icon_state = "snow1"
 	alpha = 0
 	plane = GAME_PLANE

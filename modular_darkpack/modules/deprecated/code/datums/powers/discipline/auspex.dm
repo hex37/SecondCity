@@ -8,8 +8,8 @@
 	name = "Auspex power name"
 	desc = "Auspex power description"
 
-	activate_sound = 'modular_darkpack/modules/depreciated/sound/auspex.ogg'
-	deactivate_sound = 'modular_darkpack/modules/depreciated/sound/auspex_deactivate.ogg'
+	activate_sound = 'modular_darkpack/modules/deprecated/sound/auspex.ogg'
+	deactivate_sound = 'modular_darkpack/modules/deprecated/sound/auspex_deactivate.ogg'
 
 //HEIGHTENED SENSES
 /datum/discipline_power/auspex/heightened_senses

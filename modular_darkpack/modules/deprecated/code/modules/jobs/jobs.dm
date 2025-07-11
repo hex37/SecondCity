@@ -68,7 +68,7 @@
 		return
 	last_detonated = world.time
 	do_sparks(rand(5, 9), FALSE, user)
-	playsound(user.loc, 'modular_darkpack/modules/depreciated/sound/cross.ogg', 100, FALSE, 8, 0.9)
+	playsound(user.loc, 'modular_darkpack/modules/deprecated/sound/cross.ogg', 100, FALSE, 8, 0.9)
 	for(var/mob/living/M in get_hearers_in_view(4, user.loc))
 		bang(get_turf(M), M, user)
 
@@ -113,104 +113,104 @@
 	name = "leader badge"
 	id_type_name = "leader badge"
 	desc = "King in the castle!"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "id6"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "id6"
 
 /obj/item/card/id/sheriff
 	name = "head security badge"
 	id_type_name = "head security badge"
 	desc = "A badge which shows honour and dedication."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "id4"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "id4"
 
 /obj/item/card/id/camarilla
 	name = "security badge"
 	id_type_name = "security badge"
 	desc = "A badge which shows honour and dedication."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "id3"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "id3"
 
 /obj/item/card/id/clerk
 	name = "clerk badge"
 	id_type_name = "clerk badge"
 	desc = "A badge which shows buerocracy qualification."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "id1"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "id1"
 
 /obj/item/card/id/bruiser
 	name = "bruiser badge"
 	id_type_name = "bruiser badge"
 	desc = "A badge which shows grit."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "bruiser_badge"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "bruiser_badge"
 
 /obj/item/card/id/sweeper
 	name = "sweeper badge"
 	id_type_name = "sweeper badge"
 	desc = "A badge which shows perspective."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "sweeper_badge"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "sweeper_badge"
 
 /obj/item/card/id/emissary
 	name = "emissary badge"
 	id_type_name = "emissary badge"
 	desc = "A badge which shows a favored voice, interlaced with gold thread."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "emissary_badge"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "emissary_badge"
 
 /obj/item/card/id/baron
 	name = "eagle badge"
 	id_type_name = "eagle badge"
 	desc = "The badge of a leader. The eagle stands proud, surrounded by the gold of their nest."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "eagle_badge"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "eagle_badge"
 
 /obj/item/card/id/clinic
@@ -218,13 +218,13 @@
 	id_type_name = "medical badge"
 	access = list(ACCESS_MEDICAL, ACCESS_MORGUE, ACCESS_SURGERY)
 	desc = "A badge which shows medical qualification."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "id2"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "id2"
 
 /obj/item/card/id/clinic/director
@@ -235,130 +235,130 @@
 	name = "scholar badge"
 	id_type_name = "scholar badge"
 	desc = "A badge which shows a love of culture."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "id7"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "id7"
 
 /obj/item/card/id/regent
 	name = "erudite scholar badge"
 	id_type_name = "erudite scholar badge"
 	desc = "A badge which shows a deep understanding of culture."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "id7_regent"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "id7_regent"
 
 /obj/item/card/id/cleaning
 	name = "janitor badge"
 	id_type_name = "janitor badge"
 	desc = "A badge which shows cleaning employment."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "id8"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "id8"
 
 /obj/item/card/id/graveyard
 	name = "keeper badge"
 	id_type_name = "keeper badge"
 	desc = "A badge which shows graveyard employment."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "id8"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "id8"
 
 /obj/item/card/id/dealer
 	name = "business badge"
 	id_type_name = "business badge"
 	desc = "A badge which shows business."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "id9"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "id9"
 
 /obj/item/card/id/supplytech
 	name = "technician badge"
 	id_type_name = "technician badge"
 	desc = "A badge which shows supply employment."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "id10"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "id10"
 
 /obj/item/card/id/hunter
 	name = "cross"
 	id_type_name = "cross"
 	desc = "When you come into the land that the Lord your God is giving you, you must not learn to imitate the abhorrent practices of those nations. No one shall be found among you who makes a son or daughter pass through fire, or who practices divination, or is a soothsayer, or an augur, or a sorcerer, or one who casts spells, or who consults ghosts or spirits, or who seeks oracles from the dead. For whoever does these things is abhorrent to the Lord; it is because of such abhorrent practices that the Lord your God is driving them out before you (Deuteronomy 18:9-12)."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "id11"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "id11"
 
 /obj/item/card/id/primogen
 	name = "mysterious primogen badge"
 	id_type_name = "mysterious primogen badge"
 	desc = "Sponsored by the Shadow Government."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "id12"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "id12"
 
 /obj/item/card/id/police
 	name = "police officer badge"
 	id_type_name = "police officer badge"
 	desc = "Sponsored by the Government."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "id13"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "id13"
 
 /obj/item/card/id/government
 	name = "emergency dispatcher badge"
 	id_type_name = "emergency dispatcher badge"
 	desc = "Sponsored by the Government."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "id1"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "id1"
 
 /obj/item/card/id/police/sergeant
@@ -377,26 +377,26 @@
 	name = "ancient badge"
 	id_type_name ="ancient badge"
 	desc = "You have to wear this filthy thing to be recognized."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "id12"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "id12"
 
 /obj/item/card/id/bogatyr
 	name = "dusty badge"
 	id_type_name ="dusty badge"
 	desc = "You have to wear this because the Voivode wants you to."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "id12"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "id12"
 
 
@@ -404,26 +404,26 @@
 	name = "cultist badge"
 	id_type_name = "cultist badge"
 	desc = "This shows your devotion to the dark mother."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "id14"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "id14"
 
 /obj/item/card/id/noddist
 	name = "cultist badge"
 	id_type_name = "cultist badge"
 	desc = "This shows your devotion to the dark father."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "id15"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "id15"
 
 //TZIMISCE ROLES
@@ -434,37 +434,37 @@
 	name = "primogen's whip badge"
 	id_type_name = "whip badge"
 	desc = "This badge shows your servitude to an important person."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "onyxBadge"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "onyxBadge"
 
 /obj/item/card/id/steward
 	name = "primogen's steward badge"
 	id_type_name = "steward badge"
 	desc = "This badge shows you're very good at taking care of someone else's property."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "emeraldBadge"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "emeraldBadge"
 
 /obj/item/card/id/myrmidon
 	name = "primogen's myrmidon badge"
 	id_type_name = "myrmidon badge"
 	desc = "A badge which shows you're responsible enough to protect someone important but not responsible enough to protect the most important."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "rubyBadge"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "rubyBadge"

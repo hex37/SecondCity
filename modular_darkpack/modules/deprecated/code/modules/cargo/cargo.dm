@@ -582,15 +582,15 @@
 	name = "cargo box"
 	desc = "Special deliever."
 	icon_state = "box"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
-	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
+	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
 	w_class = WEIGHT_CLASS_HUGE
 
 /obj/structure/cargo_take
 	name = "cargo"
 	desc = "Take and place boxes."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "box_take"
 	plane = GAME_PLANE
 	layer = BELOW_OBJ_LAYER
@@ -612,7 +612,7 @@
 /obj/structure/cargo_put
 	name = "cargo"
 	desc = "Take and place boxes."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "box_put"
 	plane = GAME_PLANE
 	layer = BELOW_OBJ_LAYER

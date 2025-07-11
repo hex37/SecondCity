@@ -1,7 +1,7 @@
 /obj/item/blood_hunt
 	name = "Blood Hunt Announcer"
 	desc = "Announce a Blood Hunt to the city."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "eye"
 	item_flags = NOBLUDGEON
 	w_class = WEIGHT_CLASS_SMALL
@@ -33,7 +33,7 @@
 						for(var/mob/living/carbon/human/R in GLOB.player_list)
 							if(R && iskindred(R) && R.client)
 								to_chat(R, "<b>The Blood Hunt after <span class='green'>[H.true_real_name]</span> is over!</b>")
-								SEND_SOUND(R, sound('modular_darkpack/modules/depreciated/sound/announce.ogg'))
+								SEND_SOUND(R, sound('modular_darkpack/modules/deprecated/sound/announce.ogg'))
 					else
 						SSbloodhunt.announce_hunted(H, reason)
 						to_chat(user, "<span class='warning'>You add [chosen_name] to the Hunted list.</span>")

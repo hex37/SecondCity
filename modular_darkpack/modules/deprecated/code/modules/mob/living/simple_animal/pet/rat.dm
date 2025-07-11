@@ -1,7 +1,7 @@
 /mob/living/simple_animal/pet/rat
 	name = "rat"
 	desc = "It's a rat."
-	icon = 'modular_darkpack/modules/depreciated/icons/icons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/icons.dmi'
 	icon_state = "rat"
 	icon_living = "rat"
 	icon_dead = "rat_dead"

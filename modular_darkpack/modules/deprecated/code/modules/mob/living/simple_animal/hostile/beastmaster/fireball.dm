@@ -1,7 +1,7 @@
 /mob/living/simple_animal/hostile/beastmaster/fireball
 	name = "fireball"
 	desc = "FIREBALL!!"
-	icon = 'modular_darkpack/modules/depreciated/icons/mobs.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/mobs.dmi'
 	icon_state = "fireball"
 	icon_living = "fireball"
 	del_on_death = TRUE

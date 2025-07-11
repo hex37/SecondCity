@@ -20,7 +20,7 @@
 			to_chat(src, "My <span class='danger'><b>P'o</b></span> is awakening. Rolling...")
 		else
 			to_chat(src, "I'm too <span class='danger'><b>AFRAID</b></span> to continue doing this. Rolling...")
-		SEND_SOUND(src, sound('modular_darkpack/modules/depreciated/sound/bloodneed.ogg', 0, 0, 50))
+		SEND_SOUND(src, sound('modular_darkpack/modules/deprecated/sound/bloodneed.ogg', 0, 0, 50))
 
 		var/check
 		if(iscathayan(src))
@@ -49,7 +49,7 @@
 	if (in_frenzy)
 		return
 
-	SEND_SOUND(src, sound('modular_darkpack/modules/depreciated/sound/frenzy.ogg', 0, 0, 50))
+	SEND_SOUND(src, sound('modular_darkpack/modules/deprecated/sound/frenzy.ogg', 0, 0, 50))
 	in_frenzy = TRUE
 	add_client_colour(/datum/client_colour/glass_colour/red)
 	demon_chi = 0
@@ -125,7 +125,7 @@
 							BT.add_bite_animation()
 						if(CheckEyewitness(L, src, 7, FALSE))
 							H.adjust_masquerade(-1)
-						playsound(src, 'modular_darkpack/modules/depreciated/sound/drinkblood1.ogg', 50, TRUE)
+						playsound(src, 'modular_darkpack/modules/deprecated/sound/drinkblood1.ogg', 50, TRUE)
 						L.visible_message("<span class='warning'><b>[src] bites [L]'s neck!</b></span>", "<span class='warning'><b>[src] bites your neck!</b></span>")
 						face_atom(L)
 						H.drinksomeblood(L)

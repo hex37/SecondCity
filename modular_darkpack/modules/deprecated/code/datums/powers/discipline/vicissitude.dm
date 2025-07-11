@@ -13,7 +13,7 @@
 	name = "Vicissitude power name"
 	desc = "Vicissitude power description"
 
-	activate_sound = 'modular_darkpack/modules/depreciated/sound/vicissitude.ogg'
+	activate_sound = 'modular_darkpack/modules/deprecated/sound/vicissitude.ogg'
 
 //MALLEABLE VISAGE
 /datum/discipline_power/vicissitude/malleable_visage
@@ -126,7 +126,7 @@
 
 	owner.Stun(1 SECONDS)
 	owner.do_jitter_animation(10)
-	playsound(get_turf(owner), 'modular_darkpack/modules/depreciated/sound/vicissitude.ogg', 100, TRUE, -6)
+	playsound(get_turf(owner), 'modular_darkpack/modules/deprecated/sound/vicissitude.ogg', 100, TRUE, -6)
 
 	if (to_original)
 		original_dna.transfer_identity(destination = owner, transfer_SE = TRUE, superficial = TRUE)
@@ -177,7 +177,7 @@
 	target_type = TARGET_MOB
 	range = 1
 
-	effect_sound = 'modular_darkpack/modules/depreciated/sound/vicissitude.ogg'
+	effect_sound = 'modular_darkpack/modules/deprecated/sound/vicissitude.ogg'
 	aggravating = TRUE
 	hostile = TRUE
 	violates_masquerade = TRUE
@@ -220,7 +220,7 @@
 	target_type = TARGET_MOB
 	range = 1
 
-	effect_sound = 'modular_darkpack/modules/depreciated/sound/vicissitude.ogg'
+	effect_sound = 'modular_darkpack/modules/deprecated/sound/vicissitude.ogg'
 	aggravating = TRUE
 	hostile = TRUE
 	violates_masquerade = TRUE
@@ -311,7 +311,7 @@
 			user.physiology.armor.bullet += 20
 		if ("Centipede legs")
 			user.remove_overlay(PROTEAN_LAYER)
-			upgrade_overlay = mutable_appearance('modular_darkpack/modules/depreciated/icons/64x64.dmi', "centipede", -PROTEAN_LAYER)
+			upgrade_overlay = mutable_appearance('modular_darkpack/modules/deprecated/icons/64x64.dmi', "centipede", -PROTEAN_LAYER)
 			upgrade_overlay.pixel_z = -16
 			upgrade_overlay.pixel_w = -16
 			user.overlays_standing[PROTEAN_LAYER] = upgrade_overlay
@@ -321,7 +321,7 @@
 			var/limbs = user.held_items.len
 			user.change_number_of_hands(limbs + 2)
 			user.remove_overlay(PROTEAN_LAYER)
-			upgrade_overlay = mutable_appearance('modular_darkpack/modules/depreciated/icons/icons.dmi', "2hands", -PROTEAN_LAYER)
+			upgrade_overlay = mutable_appearance('modular_darkpack/modules/deprecated/icons/icons.dmi', "2hands", -PROTEAN_LAYER)
 			upgrade_overlay.color = "#[skintone2hex(user.skin_tone)]"
 			user.overlays_standing[PROTEAN_LAYER] = upgrade_overlay
 			user.apply_overlay(PROTEAN_LAYER)
@@ -329,7 +329,7 @@
 			user.dna.species.GiveSpeciesFlight(user)
 
 	user.do_jitter_animation(10)
-	playsound(get_turf(user), 'modular_darkpack/modules/depreciated/sound/vicissitude.ogg', 100, TRUE, -6)
+	playsound(get_turf(user), 'modular_darkpack/modules/deprecated/sound/vicissitude.ogg', 100, TRUE, -6)
 
 /datum/action/basic_vicissitude/proc/remove_upgrade()
 	var/mob/living/carbon/human/user = owner
@@ -360,7 +360,7 @@
 			user.dna.species.RemoveSpeciesFlight(user)
 
 	user.do_jitter_animation(10)
-	playsound(get_turf(user), 'modular_darkpack/modules/depreciated/sound/vicissitude.ogg', 100, TRUE, -6)
+	playsound(get_turf(user), 'modular_darkpack/modules/deprecated/sound/vicissitude.ogg', 100, TRUE, -6)
 
 	selected_upgrade = null
 

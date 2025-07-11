@@ -1,13 +1,13 @@
 /obj/item/vamp/keys
 	name = "\improper keys"
 	desc = "Those can open some doors."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "keys"
 	item_flags = NOBLUDGEON
 	w_class = WEIGHT_CLASS_TINY
 	armor_type = /datum/armor/keys
 	resistance_flags = FIRE_PROOF | ACID_PROOF
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 
 	var/list/accesslocks = list(
 		"nothing"

@@ -2,7 +2,7 @@
 	name = "bailer"
 	desc = "Best for flora!"
 	icon_state = "bailer"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	w_class = WEIGHT_CLASS_SMALL
 	var/amount_of_water = 10
 

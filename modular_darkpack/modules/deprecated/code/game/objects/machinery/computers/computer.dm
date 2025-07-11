@@ -3,7 +3,7 @@ GLOBAL_LIST_EMPTY(vampire_computers)
 /obj/vampire_computer
 	name = "computer"
 	desc = "See the Internet."
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "computer"
 	plane = GAME_PLANE
 	layer = CAR_LAYER

@@ -2,5 +2,5 @@
 	name = "seed"
 	desc = "Green and smelly..."
 	icon_state = "seed"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	w_class = WEIGHT_CLASS_SMALL

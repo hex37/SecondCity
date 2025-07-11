@@ -2,8 +2,8 @@
 	name = "a book"
 	desc = "So full of knowledge"
 	icon_state = "book"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	w_class = WEIGHT_CLASS_SMALL
 	var/quote = "Hm... This book is boring."
 	COOLDOWN_DECLARE(read)

@@ -36,13 +36,13 @@
 	name = "Millenium Tower Security ID"
 	id_type_name = "Security ID"
 	desc = "An ID showing propensity for donuts"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "id2"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	worn_icon_state = "id2"
 
 /obj/item/card/id/chunk/AltClick(mob/user)

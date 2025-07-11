@@ -4,9 +4,9 @@
 	icon_state = "respirator"
 	clothing_flags = BLOCK_GAS_SMOKE_EFFECT | MASKINTERNALS
 	flags_inv = HIDEFACE | HIDEFACIALHAIR|HIDESNOUT
-	icon = 'modular_darkpack/modules/depreciated/icons/clothing.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/clothing.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	inhand_icon_state = ""
 	w_class = WEIGHT_CLASS_NORMAL
 	flags_cover = MASKCOVERSMOUTH | PEPPERPROOF
@@ -14,9 +14,9 @@
 
 /obj/item/clothing/mask/vampire
 	flags_inv = HIDEFACE | HIDEFACIALHAIR | HIDESNOUT
-	icon = 'modular_darkpack/modules/depreciated/icons/clothing.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/clothing.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	inhand_icon_state = ""
 	w_class = WEIGHT_CLASS_NORMAL
 	flags_cover = MASKCOVERSMOUTH

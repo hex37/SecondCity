@@ -14,7 +14,7 @@
 	name = "Dominate power name"
 	desc = "Dominate power description"
 
-	activate_sound = 'modular_darkpack/modules/depreciated/sound/dominate.ogg'
+	activate_sound = 'modular_darkpack/modules/deprecated/sound/dominate.ogg'
 
 /datum/discipline_power/dominate/activate(mob/living/target)
 	. = ..()
@@ -22,7 +22,7 @@
 	if(ishuman(target))
 		TRGT = target
 		TRGT.remove_overlay(MUTATIONS_LAYER)
-		var/mutable_appearance/dominate_overlay = mutable_appearance('modular_darkpack/modules/depreciated/icons/icons.dmi', "dominate", -MUTATIONS_LAYER)
+		var/mutable_appearance/dominate_overlay = mutable_appearance('modular_darkpack/modules/deprecated/icons/icons.dmi', "dominate", -MUTATIONS_LAYER)
 		dominate_overlay.pixel_z = 2
 		TRGT.overlays_standing[MUTATIONS_LAYER] = dominate_overlay
 		TRGT.apply_overlay(MUTATIONS_LAYER)

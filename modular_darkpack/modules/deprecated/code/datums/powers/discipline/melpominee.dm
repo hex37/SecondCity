@@ -9,7 +9,7 @@
 	name = "Melpominee power name"
 	desc = "Melpominee power description"
 
-	activate_sound = 'modular_darkpack/modules/depreciated/sound/melpominee.ogg'
+	activate_sound = 'modular_darkpack/modules/deprecated/sound/melpominee.ogg'
 
 //THE MISSING VOICE
 /datum/discipline_power/melpominee/the_missing_voice
@@ -120,7 +120,7 @@
 		listener.create_walk_to(2 SECONDS, owner)
 
 		listener.remove_overlay(MUTATIONS_LAYER)
-		var/mutable_appearance/song_overlay = mutable_appearance('modular_darkpack/modules/depreciated/icons/icons.dmi', "song", -MUTATIONS_LAYER)
+		var/mutable_appearance/song_overlay = mutable_appearance('modular_darkpack/modules/deprecated/icons/icons.dmi', "song", -MUTATIONS_LAYER)
 		listener.overlays_standing[MUTATIONS_LAYER] = song_overlay
 		listener.apply_overlay(MUTATIONS_LAYER)
 
@@ -143,7 +143,7 @@
 	level = 4
 	check_flags = DISC_CHECK_CONSCIOUS | DISC_CHECK_CAPABLE | DISC_CHECK_IMMOBILE | DISC_CHECK_SPEAK
 
-	effect_sound = 'modular_darkpack/modules/depreciated/sound/killscream.ogg'
+	effect_sound = 'modular_darkpack/modules/deprecated/sound/killscream.ogg'
 
 	duration_length = 2 SECONDS
 	cooldown_length = 7.5 SECONDS
@@ -155,7 +155,7 @@
 		listener.Stun(2 SECONDS)
 
 		listener.remove_overlay(MUTATIONS_LAYER)
-		var/mutable_appearance/song_overlay = mutable_appearance('modular_darkpack/modules/depreciated/icons/icons.dmi', "song", -MUTATIONS_LAYER)
+		var/mutable_appearance/song_overlay = mutable_appearance('modular_darkpack/modules/deprecated/icons/icons.dmi', "song", -MUTATIONS_LAYER)
 		listener.overlays_standing[MUTATIONS_LAYER] = song_overlay
 		listener.apply_overlay(MUTATIONS_LAYER)
 
@@ -173,7 +173,7 @@
 	level = 5
 	check_flags = DISC_CHECK_CONSCIOUS | DISC_CHECK_CAPABLE | DISC_CHECK_IMMOBILE | DISC_CHECK_SPEAK
 
-	effect_sound = 'modular_darkpack/modules/depreciated/sound/killscream.ogg'
+	effect_sound = 'modular_darkpack/modules/deprecated/sound/killscream.ogg'
 
 	duration_length = 2 SECONDS
 	cooldown_length = 7.5 SECONDS
@@ -186,7 +186,7 @@
 		listener.apply_damage(50, BRUTE, BODY_ZONE_HEAD)
 
 		listener.remove_overlay(MUTATIONS_LAYER)
-		var/mutable_appearance/song_overlay = mutable_appearance('modular_darkpack/modules/depreciated/icons/icons.dmi', "song", -MUTATIONS_LAYER)
+		var/mutable_appearance/song_overlay = mutable_appearance('modular_darkpack/modules/deprecated/icons/icons.dmi', "song", -MUTATIONS_LAYER)
 		listener.overlays_standing[MUTATIONS_LAYER] = song_overlay
 		listener.apply_overlay(MUTATIONS_LAYER)
 

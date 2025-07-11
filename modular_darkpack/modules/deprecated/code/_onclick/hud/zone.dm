@@ -1,6 +1,6 @@
 /atom/movable/screen/vtm_zone
 	name = "zone"
-	icon = 'modular_darkpack/modules/depreciated/icons/48x48.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x48.dmi'
 	icon_state = "masquerade"
 	layer = HUD_LAYER
 	plane = HUD_PLANE

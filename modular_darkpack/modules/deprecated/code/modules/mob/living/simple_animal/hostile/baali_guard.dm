@@ -1,7 +1,7 @@
 /mob/living/simple_animal/hostile/baali_guard
 	name = "Infernal Creature"
 	desc = "The peak of abominations armor. Unbelievably undamagable..."
-	icon = 'modular_darkpack/modules/depreciated/icons/32x48.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/32x48.dmi'
 	icon_state = "baali"
 	icon_living = "baali"
 	mob_biotypes = MOB_ORGANIC|MOB_HUMANOID

@@ -1,18 +1,18 @@
 /obj/item/gun/ballistic/vampire
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
-	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
+	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	can_suppress = FALSE
 	recoil = 2
 
 /obj/item/gun/ballistic/automatic/vampire
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
-	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
+	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	can_suppress = FALSE
 	recoil = 2
 
@@ -30,7 +30,7 @@
 	worn_icon_state = "revolver"
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev44
 	initial_caliber = CALIBER_44
-	fire_sound = 'modular_darkpack/modules/depreciated/sound/revolver.ogg'
+	fire_sound = 'modular_darkpack/modules/deprecated/sound/revolver.ogg'
 	load_sound = 'sound/weapons/gun/revolver/load_bullet.ogg'
 	eject_sound = 'sound/weapons/gun/revolver/empty.ogg'
 	vary_fire_sound = FALSE
@@ -130,11 +130,11 @@
 
 /obj/item/ammo_box/magazine/m44
 	name = "handgun magazine (.44)"
-	icon = 'modular_darkpack/modules/depreciated/icons/ammo.dmi'
-	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ammo.dmi'
+	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	icon_state = "deagle"
 	ammo_type = /obj/item/ammo_casing/vampire/c44
 	caliber = CALIBER_44
@@ -154,7 +154,7 @@
 	fire_delay = 0
 	actions_types = list()
 	bolt_type = BOLT_TYPE_LOCKING
-	fire_sound = 'modular_darkpack/modules/depreciated/sound/deagle.ogg'
+	fire_sound = 'modular_darkpack/modules/deprecated/sound/deagle.ogg'
 	dry_fire_sound = 'sound/weapons/gun/pistol/dry_fire.ogg'
 	load_sound = 'sound/weapons/gun/pistol/mag_insert.ogg'
 	load_empty_sound = 'sound/weapons/gun/pistol/mag_insert.ogg'
@@ -172,11 +172,11 @@
 
 /obj/item/ammo_box/magazine/m50
 	name = "handgun magazine (.50)"
-	icon = 'modular_darkpack/modules/depreciated/icons/ammo.dmi'
-	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ammo.dmi'
+	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	icon_state = "deagle"
 	ammo_type = /obj/item/ammo_casing/vampire/c50
 	caliber = CALIBER_50
@@ -194,11 +194,11 @@
 
 /obj/item/ammo_box/magazine/vamp45acp
 	name = "pistol magazine (.45 ACP)"
-	icon = 'modular_darkpack/modules/depreciated/icons/ammo.dmi'
-//	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-//	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ammo.dmi'
+//	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+//	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	icon_state = "m1911"
 	ammo_type = /obj/item/ammo_casing/vampire/c45acp
 	caliber = CALIBER_45
@@ -217,7 +217,7 @@
 	fire_delay = 0
 	actions_types = list()
 	bolt_type = BOLT_TYPE_LOCKING
-	fire_sound = 'modular_darkpack/modules/depreciated/sound/m1911.ogg'
+	fire_sound = 'modular_darkpack/modules/deprecated/sound/m1911.ogg'
 	dry_fire_sound = 'sound/weapons/gun/pistol/dry_fire.ogg'
 	load_sound = 'sound/weapons/gun/pistol/mag_insert.ogg'
 	load_empty_sound = 'sound/weapons/gun/pistol/mag_insert.ogg'
@@ -235,11 +235,11 @@
 
 /obj/item/ammo_box/magazine/glock9mm
 	name = "automatic pistol magazine (9mm)"
-	icon = 'modular_darkpack/modules/depreciated/icons/ammo.dmi'
-//	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-//	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ammo.dmi'
+//	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+//	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	icon_state = "glock19"
 	ammo_type = /obj/item/ammo_casing/vampire/c9mm
 	caliber = CALIBER_9MM
@@ -258,7 +258,7 @@
 	fire_delay = 1
 	actions_types = list()
 	bolt_type = BOLT_TYPE_LOCKING
-	fire_sound = 'modular_darkpack/modules/depreciated/sound/glock.ogg'
+	fire_sound = 'modular_darkpack/modules/deprecated/sound/glock.ogg'
 	dry_fire_sound = 'sound/weapons/gun/pistol/dry_fire.ogg'
 	load_sound = 'sound/weapons/gun/pistol/mag_insert.ogg'
 	load_empty_sound = 'sound/weapons/gun/pistol/mag_insert.ogg'
@@ -276,11 +276,11 @@
 
 /obj/item/ammo_box/magazine/glock45acp
 	name = "automatic pistol magazine (.45 ACP)"
-	icon = 'modular_darkpack/modules/depreciated/icons/ammo.dmi'
-//	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-//	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ammo.dmi'
+//	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+//	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	icon_state = "glock21"
 	ammo_type = /obj/item/ammo_casing/vampire/c9mm
 	caliber = CALIBER_45
@@ -299,7 +299,7 @@
 	fire_delay = 1
 	actions_types = list()
 	bolt_type = BOLT_TYPE_LOCKING
-	fire_sound = 'modular_darkpack/modules/depreciated/sound/glock.ogg'
+	fire_sound = 'modular_darkpack/modules/deprecated/sound/glock.ogg'
 	dry_fire_sound = 'sound/weapons/gun/pistol/dry_fire.ogg'
 	load_sound = 'sound/weapons/gun/pistol/mag_insert.ogg'
 	load_empty_sound = 'sound/weapons/gun/pistol/mag_insert.ogg'
@@ -328,7 +328,7 @@
 	dual_wield_spread = 10 //DUAL ELITES!
 	actions_types = list()
 	bolt_type = BOLT_TYPE_LOCKING
-	fire_sound = 'modular_darkpack/modules/depreciated/sound/glock.ogg'
+	fire_sound = 'modular_darkpack/modules/deprecated/sound/glock.ogg'
 	dry_fire_sound = 'sound/weapons/gun/pistol/dry_fire.ogg'
 	load_sound = 'sound/weapons/gun/pistol/mag_insert.ogg'
 	load_empty_sound = 'sound/weapons/gun/pistol/mag_insert.ogg'
@@ -359,11 +359,11 @@
 
 /obj/item/ammo_box/magazine/semi9mm
 	name = "pistol magazine (9mm)"
-	icon = 'modular_darkpack/modules/depreciated/icons/ammo.dmi'
-//	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-//	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ammo.dmi'
+//	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+//	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	icon_state = "semi9mm"
 	ammo_type = /obj/item/ammo_casing/vampire/c9mm
 	caliber = CALIBER_9MM
@@ -376,11 +376,11 @@
 
 /obj/item/ammo_box/magazine/vamp9mm
 	name = "uzi magazine (9mm)"
-	icon = 'modular_darkpack/modules/depreciated/icons/ammo.dmi'
-	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ammo.dmi'
+	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	icon_state = "uzi"
 	ammo_type = /obj/item/ammo_casing/vampire/c9mm
 	caliber = CALIBER_9MM
@@ -401,7 +401,7 @@
 	show_bolt_icon = FALSE
 	mag_display = TRUE
 	rack_sound = 'sound/weapons/gun/pistol/slide_lock.ogg'
-	fire_sound = 'modular_darkpack/modules/depreciated/sound/uzi.ogg'
+	fire_sound = 'modular_darkpack/modules/deprecated/sound/uzi.ogg'
 
 /obj/item/gun/ballistic/automatic/vampire/uzi/Initialize(mapload)
 	. = ..()
@@ -409,11 +409,11 @@
 
 /obj/item/ammo_box/magazine/vamp9mp5
 	name = "mp5 magazine (9mm)"
-	icon = 'modular_darkpack/modules/depreciated/icons/ammo.dmi'
-//	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-//	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ammo.dmi'
+//	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+//	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	icon_state = "mp5"
 	ammo_type = /obj/item/ammo_casing/vampire/c9mm
 	caliber = CALIBER_9MM
@@ -424,7 +424,7 @@
 	name = "\improper HK MP5"
 	desc = "A lightweight, burst-fire submachine gun, for when you really want to do some dirty cool job. Uses 9mm rounds."
 	icon_state = "mp5"
-	icon = 'modular_darkpack/modules/depreciated/icons/48x32weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x32weapons.dmi'
 	inhand_icon_state = "mp5"
 	worn_icon_state = "mp5"
 	mag_type = /obj/item/ammo_box/magazine/vamp9mp5
@@ -434,7 +434,7 @@
 	show_bolt_icon = FALSE
 	mag_display = TRUE
 	rack_sound = 'sound/weapons/gun/pistol/slide_lock.ogg'
-	fire_sound = 'modular_darkpack/modules/depreciated/sound/mp5.ogg'
+	fire_sound = 'modular_darkpack/modules/deprecated/sound/mp5.ogg'
 
 /obj/item/gun/ballistic/automatic/vampire/mp5/Initialize(mapload)
 	. = ..()
@@ -442,11 +442,11 @@
 
 /obj/item/ammo_box/magazine/vamp556
 	name = "carbine magazine (5.56mm)"
-	icon = 'modular_darkpack/modules/depreciated/icons/ammo.dmi'
-	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ammo.dmi'
+	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	icon_state = "rifle"
 	ammo_type = /obj/item/ammo_casing/vampire/c556mm
 	caliber = CALIBER_556
@@ -461,7 +461,7 @@
 /obj/item/gun/ballistic/automatic/vampire/ar15
 	name = "\improper AR-15 Carbine"
 	desc = "A two-round burst 5.56 toploading carbine, designated 'AR-15'."
-	icon = 'modular_darkpack/modules/depreciated/icons/48x32weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x32weapons.dmi'
 	icon_state = "rifle"
 	inhand_icon_state = "rifle"
 	worn_icon_state = "rifle"
@@ -473,7 +473,7 @@
 	bolt_type = BOLT_TYPE_LOCKING
 	show_bolt_icon = FALSE
 	mag_display = TRUE
-	fire_sound = 'modular_darkpack/modules/depreciated/sound/rifle.ogg'
+	fire_sound = 'modular_darkpack/modules/deprecated/sound/rifle.ogg'
 	masquerade_violating = TRUE
 
 /obj/item/gun/ballistic/automatic/vampire/ar15/Initialize(mapload)
@@ -483,7 +483,7 @@
 /obj/item/gun/ballistic/automatic/vampire/huntrifle
 	name = "hunting rifle"
 	desc = "A semi-automatic hunting rifle, just like what your dad used to shoot. If your dad didn't go out to get milk, anyways."
-	icon = 'modular_darkpack/modules/depreciated/icons/48x32weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x32weapons.dmi'
 	icon_state = "huntrifle"
 	inhand_icon_state = "huntrifle"
 	worn_icon_state = "huntrifle"
@@ -495,7 +495,7 @@
 	bolt_type = BOLT_TYPE_LOCKING
 	show_bolt_icon = FALSE
 	mag_display = TRUE
-	fire_sound = 'modular_darkpack/modules/depreciated/sound/rifle.ogg'
+	fire_sound = 'modular_darkpack/modules/deprecated/sound/rifle.ogg'
 	masquerade_violating = FALSE
 
 /obj/item/gun/ballistic/automatic/vampire/huntrifle/Initialize(mapload)
@@ -504,11 +504,11 @@
 
 /obj/item/ammo_box/magazine/vamp545
 	name = "rifle magazine (5.45mm)"
-	icon = 'modular_darkpack/modules/depreciated/icons/ammo.dmi'
-//	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-//	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ammo.dmi'
+//	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+//	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	icon_state = "ak"
 	ammo_type = /obj/item/ammo_casing/vampire/c545mm
 	caliber = CALIBER_545
@@ -518,7 +518,7 @@
 /obj/item/gun/ballistic/automatic/vampire/ak74
 	name = "\improper Kalashnikov's Automatic Rifle 74"
 	desc = "Pretty old, but also easy fireable and cleanable by vodka.Uses 5.45 rounds."
-	icon = 'modular_darkpack/modules/depreciated/icons/48x32weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x32weapons.dmi'
 	icon_state = "ak74"
 	inhand_icon_state = "ak74"
 	worn_icon_state = "ak74"
@@ -531,7 +531,7 @@
 	bolt_type = BOLT_TYPE_LOCKING
 	show_bolt_icon = FALSE
 	mag_display = TRUE
-	fire_sound = 'modular_darkpack/modules/depreciated/sound/ak.ogg'
+	fire_sound = 'modular_darkpack/modules/deprecated/sound/ak.ogg'
 	masquerade_violating = TRUE
 
 /obj/item/gun/ballistic/automatic/vampire/ak74/Initialize(mapload)
@@ -540,11 +540,11 @@
 
 /obj/item/ammo_box/magazine/vampaug
 	name = "AUG magazine (5.56mm)"
-	icon = 'modular_darkpack/modules/depreciated/icons/ammo.dmi'
-	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ammo.dmi'
+	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	icon_state = "aug"
 	ammo_type = /obj/item/ammo_casing/vampire/c556mm
 	caliber = CALIBER_556
@@ -554,7 +554,7 @@
 /obj/item/gun/ballistic/automatic/vampire/aug
 	name = "\improper Steyr AUG-77"
 	desc = "A three-round burst 5.56 bullpup design, designated 'Steyr AUG-77'."
-	icon = 'modular_darkpack/modules/depreciated/icons/48x32weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x32weapons.dmi'
 	icon_state = "aug"
 	inhand_icon_state = "aug"
 	worn_icon_state = "aug"
@@ -566,7 +566,7 @@
 	bolt_type = BOLT_TYPE_LOCKING
 	show_bolt_icon = FALSE
 	mag_display = TRUE
-	fire_sound = 'modular_darkpack/modules/depreciated/sound/rifle.ogg'
+	fire_sound = 'modular_darkpack/modules/deprecated/sound/rifle.ogg'
 	masquerade_violating = TRUE
 	is_iron = FALSE
 
@@ -576,12 +576,12 @@
 
 /obj/item/ammo_box/magazine/vampthompson
 	name = "tommy gun magazine (.45 ACP)"
-	icon = 'modular_darkpack/modules/depreciated/icons/ammo.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ammo.dmi'
 	icon_state = "thompson"
-//	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-//	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+//	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+//	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	ammo_type = /obj/item/ammo_casing/vampire/c45acp
 	caliber = CALIBER_45
 	max_ammo = 50
@@ -590,7 +590,7 @@
 /obj/item/gun/ballistic/automatic/vampire/thompson
 	name = "\improper Thompson Submachine Gun"
 	desc = "\"Mamma-mia, Mercurio! Yu shot 'im in da head, he can't speek now! Yu guappo, Mercurio, yu naturale guappo!\""
-	icon = 'modular_darkpack/modules/depreciated/icons/48x32weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x32weapons.dmi'
 	icon_state = "thompson"
 	inhand_icon_state = "thompson"
 	worn_icon_state = "thompson"
@@ -603,7 +603,7 @@
 	bolt_type = BOLT_TYPE_OPEN
 	show_bolt_icon = FALSE
 	mag_display = TRUE
-	fire_sound = 'modular_darkpack/modules/depreciated/sound/thompson.ogg'
+	fire_sound = 'modular_darkpack/modules/deprecated/sound/thompson.ogg'
 	masquerade_violating = TRUE
 
 /obj/item/gun/ballistic/automatic/vampire/thompson/Initialize(mapload)
@@ -621,7 +621,7 @@
 /obj/item/gun/ballistic/automatic/vampire/sniper
 	name = "sniper rifle"
 	desc = "A long ranged weapon that does significant damage. No, you can't quickscope."
-	icon = 'modular_darkpack/modules/depreciated/icons/48x32weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x32weapons.dmi'
 	icon_state = "sniper"
 	inhand_icon_state = "sniper"
 	worn_icon_state = "sniper"
@@ -631,7 +631,7 @@
 	bolt_type = BOLT_TYPE_STANDARD
 	semi_auto = FALSE
 	internal_magazine = TRUE
-	fire_sound = 'modular_darkpack/modules/depreciated/sound/sniper.ogg'
+	fire_sound = 'modular_darkpack/modules/deprecated/sound/sniper.ogg'
 	fire_sound_volume = 90
 	vary_fire_sound = FALSE
 	rack_sound = 'sound/weapons/gun/rifle/bolt_out.ogg'
@@ -663,11 +663,11 @@
 /obj/item/gun/ballistic/shotgun/vampire
 	name = "shotgun"
 	desc = "A traditional shotgun with wood furniture and a six-round tube magazine."
-	icon = 'modular_darkpack/modules/depreciated/icons/48x32weapons.dmi'
-	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x32weapons.dmi'
+	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	w_class = WEIGHT_CLASS_BULKY
 	icon_state = "pomp"
 	inhand_icon_state = "pomp"
@@ -676,18 +676,18 @@
 	fire_delay = 6
 	mag_type = /obj/item/ammo_box/magazine/internal/vampshotgun
 	can_be_sawn_off	= FALSE
-	fire_sound = 'modular_darkpack/modules/depreciated/sound/pomp.ogg'
+	fire_sound = 'modular_darkpack/modules/deprecated/sound/pomp.ogg'
 	recoil = 4
 	inhand_x_dimension = 32
 	inhand_y_dimension = 32
 
 /obj/item/ammo_box/magazine/vampautoshot
 	name = "shotgun magazine (12ga)"
-	icon = 'modular_darkpack/modules/depreciated/icons/ammo.dmi'
-	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ammo.dmi'
+	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	icon_state = "spas15"
 	ammo_type = /obj/item/ammo_casing/vampire/c12g/buck
 	caliber = CALIBER_12G
@@ -697,7 +697,7 @@
 /obj/item/gun/ballistic/automatic/vampire/autoshotgun
 	name = "\improper Jaegerspas-XV"
 	desc = "A semi-automatic shotgun. It looks more like an assault rifle than a shotgun and fires at a deadly pace."
-	icon = 'modular_darkpack/modules/depreciated/icons/48x32weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x32weapons.dmi'
 	icon_state = "spas15"
 	inhand_icon_state = "spas15"
 	worn_icon_state = "rifle"
@@ -709,7 +709,7 @@
 	bolt_type = BOLT_TYPE_LOCKING
 	show_bolt_icon = FALSE
 	mag_display = TRUE
-	fire_sound = 'modular_darkpack/modules/depreciated/sound/pomp.ogg'
+	fire_sound = 'modular_darkpack/modules/deprecated/sound/pomp.ogg'
 	slot_flags = ITEM_SLOT_BACK
 	projectile_damage_multiplier = 0.9
 	masquerade_violating = TRUE
@@ -722,10 +722,10 @@
 /obj/item/gun/ballistic/shotgun/toy/crossbow/vampire
 	name = "crossbow"
 	desc = "Welcome to the Middle Ages!"
-	icon = 'modular_darkpack/modules/depreciated/icons/48x32weapons.dmi'
-	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x32weapons.dmi'
+	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	icon_state = "crossbow0"
 	inhand_icon_state = "crossbow0"
 	fire_delay = 16
@@ -748,16 +748,16 @@
 	projectile_type = /obj/projectile/bullet/crossbow_bolt
 	caliber = CALIBER_FOAM
 	icon_state = "arrow"
-	icon = 'modular_darkpack/modules/depreciated/icons/ammo.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ammo.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	harmful = TRUE
 
 /obj/item/molotov
 	name = "molotov cocktail"
 	desc = "Well fire weapon."
 	icon_state = "molotov"
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	w_class = WEIGHT_CLASS_SMALL
 	masquerade_violating = TRUE
 	var/active = FALSE
@@ -790,17 +790,17 @@
 	if(active)
 		new /obj/effect/fire(explode_location)
 
-	playsound(explode_location, 'modular_darkpack/modules/depreciated/sound/explode.ogg', 100, TRUE)
+	playsound(explode_location, 'modular_darkpack/modules/deprecated/sound/explode.ogg', 100, TRUE)
 	qdel(src)
 
 /obj/item/vampire_flamethrower
 	name = "flamethrower"
 	desc = "Well fire weapon."
 	icon_state = "flamethrower4"
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
-	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
+	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
 	w_class = WEIGHT_CLASS_NORMAL
 	masquerade_violating = TRUE
 	var/oil = 1000
@@ -814,7 +814,7 @@
 			G.stored_gasoline = max(0, G.stored_gasoline-gas_to_transfer)
 			oil = min(1000, oil+gas_to_transfer)
 			if(oil)
-				playsound(get_turf(user), 'modular_darkpack/modules/depreciated/sound/gas_fill.ogg', 50, TRUE)
+				playsound(get_turf(user), 'modular_darkpack/modules/deprecated/sound/gas_fill.ogg', 50, TRUE)
 				to_chat(user, "<span class='notice'>You fill [src].</span>")
 				icon_state = "flamethrower4"
 
@@ -832,7 +832,7 @@
 	if(HAS_TRAIT(user, TRAIT_PACIFISM))
 		to_chat(user, "<span class='warning'>You can't bring yourself to fire \the [src]! You don't want to risk harming anyone...</span>")
 		return
-	playsound(get_turf(user), 'modular_darkpack/modules/depreciated/sound/flamethrower.ogg', 50, TRUE)
+	playsound(get_turf(user), 'modular_darkpack/modules/deprecated/sound/flamethrower.ogg', 50, TRUE)
 	visible_message("<span class='warning'>[user] fires [src]!</span>", "<span class='warning'>You fire [src]!</span>")
 	if(user && user.get_active_held_item() == src) // Make sure our user is still holding us
 		var/turf/target_turf = get_turf(target)

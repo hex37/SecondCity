@@ -2,9 +2,9 @@
 	name = "green package"
 	desc = "Green and smelly..."
 	icon_state = "package_weed"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	w_class = WEIGHT_CLASS_SMALL
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 
 /obj/item/weedpack/Initialize(mapload)
 	. = ..()

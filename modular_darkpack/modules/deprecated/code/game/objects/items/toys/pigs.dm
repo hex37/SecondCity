@@ -1,21 +1,21 @@
 /obj/item/toy/rubberpig
 	name = "rubberpig"
 	desc = "Klim Sanych, zdravstvuite."
-	icon = 'modular_darkpack/modules/depreciated/icons/icons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/icons.dmi'
 	icon_state = "rubberpig"
 	inhand_icon_state = "rubberpig"
-	lefthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	righthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
+	lefthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	righthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
 	w_class = WEIGHT_CLASS_SMALL
 	var/cooldown = 0
 
 /obj/item/toy/rubberpig/attack_hand(mob/user)
-	var/hryuk = pick('modular_darkpack/modules/depreciated/sound/pig1.ogg', 'modular_darkpack/modules/depreciated/sound/pig2.ogg', 'modular_darkpack/modules/depreciated/sound/pig3.ogg')
+	var/hryuk = pick('modular_darkpack/modules/deprecated/sound/pig1.ogg', 'modular_darkpack/modules/deprecated/sound/pig2.ogg', 'modular_darkpack/modules/deprecated/sound/pig3.ogg')
 	playsound(src, hryuk, 70, TRUE)
 
 /obj/item/toy/rubberpig/attack_self(mob/user)
 	if(cooldown < world.time - 50)
-		var/hryuk = pick('modular_darkpack/modules/depreciated/sound/pig1.ogg', 'modular_darkpack/modules/depreciated/sound/pig2.ogg', 'modular_darkpack/modules/depreciated/sound/pig3.ogg')
+		var/hryuk = pick('modular_darkpack/modules/deprecated/sound/pig1.ogg', 'modular_darkpack/modules/deprecated/sound/pig2.ogg', 'modular_darkpack/modules/deprecated/sound/pig3.ogg')
 		playsound(src, hryuk, 70, TRUE)
 		user.visible_message("<span class='notice'>[user] pushes the rubberpig.</span>", "<span class='notice'>You push the rubberpig.</span>")
 		cooldown = world.time

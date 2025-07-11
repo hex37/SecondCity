@@ -206,9 +206,9 @@
 	name = "Blood Heal"
 	desc = "Use vitae in your blood to heal your wounds."
 	button_icon_state = "bloodheal"
-	button_icon = 'modular_darkpack/modules/depreciated/icons/ui/actions.dmi'
+	button_icon = 'modular_darkpack/modules/deprecated/icons/ui/actions.dmi'
 	background_icon_state = "discipline"
-	icon_icon = 'modular_darkpack/modules/depreciated/icons/ui/actions.dmi'
+	icon_icon = 'modular_darkpack/modules/deprecated/icons/ui/actions.dmi'
 	check_flags = AB_CHECK_HANDS_BLOCKED|AB_CHECK_IMMOBILE|AB_CHECK_LYING|AB_CHECK_CONSCIOUS
 	vampiric = TRUE
 	var/last_heal = 0
@@ -219,11 +219,11 @@
 		if(owner.client)
 			if(owner.client.prefs)
 				if(owner.client.prefs.old_discipline)
-					button_icon = 'modular_darkpack/modules/depreciated/icons/disciplines.dmi'
-					icon_icon = 'modular_darkpack/modules/depreciated/icons/disciplines.dmi'
+					button_icon = 'modular_darkpack/modules/deprecated/icons/disciplines.dmi'
+					icon_icon = 'modular_darkpack/modules/deprecated/icons/disciplines.dmi'
 				else
-					button_icon = 'modular_darkpack/modules/depreciated/icons/ui/actions.dmi'
-					icon_icon = 'modular_darkpack/modules/depreciated/icons/ui/actions.dmi'
+					button_icon = 'modular_darkpack/modules/deprecated/icons/ui/actions.dmi'
+					icon_icon = 'modular_darkpack/modules/deprecated/icons/ui/actions.dmi'
 	. = ..()
 
 /datum/action/blood_heal/Trigger()
@@ -238,13 +238,13 @@
 				return
 		if(H.bloodpool < 1)
 			to_chat(owner, "<span class='warning'>You don't have enough <b>BLOOD</b> to do that!</span>")
-			SEND_SOUND(H, sound('modular_darkpack/modules/depreciated/sound/need_blood.ogg', 0, 0, 75))
+			SEND_SOUND(H, sound('modular_darkpack/modules/deprecated/sound/need_blood.ogg', 0, 0, 75))
 			return
 		if((last_heal + 30) >= world.time)
 			return
 		last_heal = world.time
 		H.bloodpool = max(0, H.bloodpool-1)
-		SEND_SOUND(H, sound('modular_darkpack/modules/depreciated/sound/bloodhealing.ogg', 0, 0, 50))
+		SEND_SOUND(H, sound('modular_darkpack/modules/deprecated/sound/bloodhealing.ogg', 0, 0, 50))
 		H.heal_overall_damage(15*level, 2.5*level, 20*level)
 		H.adjustBruteLoss(-15*level, TRUE)
 		H.adjustFireLoss(-2.5*level, TRUE)
@@ -296,10 +296,10 @@
 									if(!H.warrant && !H.ignores_warrant)
 										if(H.killed_count >= 5)
 											H.warrant = TRUE
-											SEND_SOUND(H, sound('modular_darkpack/modules/depreciated/sound/suspect.ogg', 0, 0, 75))
+											SEND_SOUND(H, sound('modular_darkpack/modules/deprecated/sound/suspect.ogg', 0, 0, 75))
 											to_chat(H, "<span class='userdanger'><b>POLICE ASSAULT IN PROGRESS</b></span>")
 										else
-											SEND_SOUND(H, sound('modular_darkpack/modules/depreciated/sound/sus.ogg', 0, 0, 75))
+											SEND_SOUND(H, sound('modular_darkpack/modules/deprecated/sound/sus.ogg', 0, 0, 75))
 											to_chat(H, "<span class='userdanger'><b>SUSPICIOUS ACTION (corpse)</b></span>")
 			for(var/obj/item/I in H.contents)
 				if(I)
@@ -313,10 +313,10 @@
 									if(!H.warrant && !H.ignores_warrant)
 										if(H.killed_count >= 5)
 											H.warrant = TRUE
-											SEND_SOUND(H, sound('modular_darkpack/modules/depreciated/sound/suspect.ogg', 0, 0, 75))
+											SEND_SOUND(H, sound('modular_darkpack/modules/deprecated/sound/suspect.ogg', 0, 0, 75))
 											to_chat(H, "<span class='userdanger'><b>POLICE ASSAULT IN PROGRESS</b></span>")
 										else
-											SEND_SOUND(H, sound('modular_darkpack/modules/depreciated/sound/sus.ogg', 0, 0, 75))
+											SEND_SOUND(H, sound('modular_darkpack/modules/deprecated/sound/sus.ogg', 0, 0, 75))
 											to_chat(H, "<span class='userdanger'><b>SUSPICIOUS ACTION (equipment)</b></span>")
 	if(H.key && H.stat != DEAD)
 		var/datum/preferences/P = GLOB.preferences_datums[ckey(H.key)]
@@ -359,10 +359,10 @@
 									if(!H.warrant && !H.ignores_warrant)
 										if(H.killed_count >= 5)
 											H.warrant = TRUE
-											SEND_SOUND(H, sound('modular_darkpack/modules/depreciated/sound/suspect.ogg', 0, 0, 75))
+											SEND_SOUND(H, sound('modular_darkpack/modules/deprecated/sound/suspect.ogg', 0, 0, 75))
 											to_chat(H, "<span class='userdanger'><b>POLICE ASSAULT IN PROGRESS</b></span>")
 										else
-											SEND_SOUND(H, sound('modular_darkpack/modules/depreciated/sound/sus.ogg', 0, 0, 75))
+											SEND_SOUND(H, sound('modular_darkpack/modules/deprecated/sound/sus.ogg', 0, 0, 75))
 											to_chat(H, "<span class='userdanger'><b>SUSPICIOUS ACTION (corpse)</b></span>")
 			for(var/obj/item/I in H.contents)
 				if(I)
@@ -376,10 +376,10 @@
 									if(!H.warrant && !H.ignores_warrant)
 										if(H.killed_count >= 5)
 											H.warrant = TRUE
-											SEND_SOUND(H, sound('modular_darkpack/modules/depreciated/sound/suspect.ogg', 0, 0, 75))
+											SEND_SOUND(H, sound('modular_darkpack/modules/deprecated/sound/suspect.ogg', 0, 0, 75))
 											to_chat(H, "<span class='userdanger'><b>POLICE ASSAULT IN PROGRESS</b></span>")
 										else
-											SEND_SOUND(H, sound('modular_darkpack/modules/depreciated/sound/sus.ogg', 0, 0, 75))
+											SEND_SOUND(H, sound('modular_darkpack/modules/deprecated/sound/sus.ogg', 0, 0, 75))
 											to_chat(H, "<span class='userdanger'><b>SUSPICIOUS ACTION (equipment)</b></span>")
 	if((H.last_bloodpool_restore + 60 SECONDS) <= world.time)
 		H.last_bloodpool_restore = world.time
@@ -407,10 +407,10 @@
 									if(!H.warrant && !H.ignores_warrant)
 										if(H.killed_count >= 5)
 											H.warrant = TRUE
-											SEND_SOUND(H, sound('modular_darkpack/modules/depreciated/sound/suspect.ogg', 0, 0, 75))
+											SEND_SOUND(H, sound('modular_darkpack/modules/deprecated/sound/suspect.ogg', 0, 0, 75))
 											to_chat(H, "<span class='userdanger'><b>POLICE ASSAULT IN PROGRESS</b></span>")
 										else
-											SEND_SOUND(H, sound('modular_darkpack/modules/depreciated/sound/sus.ogg', 0, 0, 75))
+											SEND_SOUND(H, sound('modular_darkpack/modules/deprecated/sound/sus.ogg', 0, 0, 75))
 											to_chat(H, "<span class='userdanger'><b>SUSPICIOUS ACTION (corpse)</b></span>")
 			for(var/obj/item/I in H.contents)
 				if(I)
@@ -424,10 +424,10 @@
 									if(!H.warrant && !H.ignores_warrant)
 										if(H.killed_count >= 5)
 											H.warrant = TRUE
-											SEND_SOUND(H, sound('modular_darkpack/modules/depreciated/sound/suspect.ogg', 0, 0, 75))
+											SEND_SOUND(H, sound('modular_darkpack/modules/deprecated/sound/suspect.ogg', 0, 0, 75))
 											to_chat(H, "<span class='userdanger'><b>POLICE ASSAULT IN PROGRESS</b></span>")
 										else
-											SEND_SOUND(H, sound('modular_darkpack/modules/depreciated/sound/sus.ogg', 0, 0, 75))
+											SEND_SOUND(H, sound('modular_darkpack/modules/deprecated/sound/sus.ogg', 0, 0, 75))
 											to_chat(H, "<span class='userdanger'><b>SUSPICIOUS ACTION (equipment)</b></span>")
 	if((H.last_bloodpool_restore + 60 SECONDS) <= world.time)
 		H.last_bloodpool_restore = world.time

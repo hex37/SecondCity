@@ -5,9 +5,9 @@
 //SUITS
 
 /obj/item/clothing/suit/vampire
-	icon = 'modular_darkpack/modules/depreciated/icons/clothing.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/clothing.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 
 	body_parts_covered = CHEST
 	cold_protection = CHEST|GROIN
@@ -37,9 +37,9 @@
 /obj/item/clothing/suit/hooded/heisenberg
 	name = "chemical costume"
 	desc = "A costume made for chemical protection."
-	icon = 'modular_darkpack/modules/depreciated/icons/clothing.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/clothing.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	icon_state = "heisenberg"
 	body_parts_covered = CHEST | GROIN | ARMS
 	cold_protection = CHEST | GROIN | ARMS
@@ -59,9 +59,9 @@
 	name = "chemical hood"
 	desc = "A hood attached to a cchemical costume."
 	icon_state = "heisenberg_helm"
-	icon = 'modular_darkpack/modules/depreciated/icons/clothing.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/clothing.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	body_parts_covered = HEAD
 	cold_protection = HEAD
 	min_cold_protection_temperature = FIRE_SUIT_MIN_TEMP_PROTECT
@@ -73,9 +73,9 @@
 	name = "white robe"
 	desc = "Some angelic-looking robes."
 	icon_state = "robes"
-	icon = 'modular_darkpack/modules/depreciated/icons/clothing.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/clothing.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	flags_inv = HIDEJUMPSUIT
 	body_parts_covered = CHEST | GROIN | LEGS | ARMS
 	cold_protection = CHEST | GROIN | LEGS | ARMS
@@ -85,9 +85,9 @@
 	name = "white hood"
 	desc = "The hood of some angelic-looking robes."
 	icon_state = "robes_hood"
-	icon = 'modular_darkpack/modules/depreciated/icons/clothing.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/clothing.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	body_parts_covered = HEAD
 	cold_protection = HEAD
 	flags_inv = HIDEHAIR | HIDEEARS

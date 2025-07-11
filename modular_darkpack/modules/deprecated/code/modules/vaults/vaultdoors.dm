@@ -1,7 +1,7 @@
 /obj/structure/vaultdoor
 	name = "Vault Door"
 	desc = "A heavy duty door that looks like it could withstand a lot of punishment."
-	icon = 'modular_darkpack/modules/depreciated/icons/doors.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/doors.dmi'
 	icon_state = "vault-1"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -21,9 +21,9 @@
 	var/is_broken = FALSE
 	var/door_health = 100
 
-	var/open_sound = 'modular_darkpack/modules/depreciated/sound/vault_door_opening.ogg'
-	var/close_sound = 'modular_darkpack/modules/depreciated/sound/vault_door_closing.ogg'
-	var/lock_sound = 'modular_darkpack/modules/depreciated/sound/vault_door_lock.ogg'
+	var/open_sound = 'modular_darkpack/modules/deprecated/sound/vault_door_opening.ogg'
+	var/close_sound = 'modular_darkpack/modules/deprecated/sound/vault_door_closing.ogg'
+	var/lock_sound = 'modular_darkpack/modules/deprecated/sound/vault_door_lock.ogg'
 
 	//[Lucifernix] - Do the doors use keys, combination locks, or electric pin codes, or a mix of all three?
 	var/uses_key_lock = FALSE

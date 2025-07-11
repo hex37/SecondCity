@@ -48,7 +48,7 @@ SUBSYSTEM_DEF(graveyard)
 							total_good += 1
 
 /obj/vampgrave
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "grave1"
 	name = "grave"
 	plane = GAME_PLANE

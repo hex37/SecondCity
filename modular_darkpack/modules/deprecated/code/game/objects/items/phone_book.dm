@@ -2,8 +2,8 @@
 	name = "phone book"
 	desc = "See the actual numbers in the city."
 	icon_state = "phonebook"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/phone_book/attack_self(mob/user)

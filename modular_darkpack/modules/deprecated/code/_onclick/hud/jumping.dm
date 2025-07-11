@@ -1,6 +1,6 @@
 /atom/movable/screen/jump
 	name = "jump"
-	icon = 'modular_darkpack/modules/depreciated/icons/ui/buttons_wide.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ui/buttons_wide.dmi'
 	icon_state = "act_jump_off"
 	layer = HUD_LAYER
 	plane = HUD_PLANE

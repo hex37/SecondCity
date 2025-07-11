@@ -135,8 +135,8 @@
 	sharpness = SHARP_POINTY
 
 /obj/item/ammo_casing/vampire
-	icon = 'modular_darkpack/modules/depreciated/icons/ammo.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ammo.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	var/base_iconstate
 
 /obj/item/ammo_casing/vampire/c9mm
@@ -211,7 +211,7 @@
 
 /*
 /obj/item/storage/ammostack
-	icon = 'modular_darkpack/modules/depreciated/icons/ammo.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ammo.dmi'
 	var/base_caliber = "tut base_iconstate"
 	var/max_patroni = 5
 
@@ -244,8 +244,8 @@
 */
 
 /obj/item/ammo_box/vampire
-	icon = 'modular_darkpack/modules/depreciated/icons/ammo.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/ammo.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	w_class = WEIGHT_CLASS_NORMAL
 
 ///9mm/////////////

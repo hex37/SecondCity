@@ -1,5 +1,5 @@
 /obj/transfer_point_vamp
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "matrix_go"
 	name = "transfer point"
 	plane = GAME_PLANE
@@ -27,7 +27,7 @@
 
 /obj/transfer_point_vamp/umbral
 	name = "portal"
-	icon = 'modular_darkpack/modules/depreciated/icons/48x48.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x48.dmi'
 	icon_state = "portal"
 	plane = ABOVE_LIGHTING_PLANE
 	//layer = ABOVE_LIGHTING_LAYER
@@ -44,7 +44,7 @@
 
 /obj/transfer_point_vamp/umbral/Bumped(atom/movable/AM)
 	. = ..()
-	playsound(get_turf(AM), 'modular_darkpack/modules/depreciated/sound/portal_enter.ogg', 75, FALSE)
+	playsound(get_turf(AM), 'modular_darkpack/modules/deprecated/sound/portal_enter.ogg', 75, FALSE)
 
 /obj/transfer_point_vamp/Bumped(atom/movable/AM)
 	. = ..()

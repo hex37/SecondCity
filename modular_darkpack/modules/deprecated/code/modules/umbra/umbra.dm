@@ -4,7 +4,7 @@
 /turf/open/floor/plating/umbra
 	gender = PLURAL
 	name = "nothing"
-	icon = 'modular_darkpack/modules/depreciated/icons/tiles.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/tiles.dmi'
 	icon_state = "black"
 	flags_1 = NONE
 	attachment_holes = FALSE
@@ -29,7 +29,7 @@
 /obj/minespot
 	name = "safe umbral tether"
 	desc = "Connects the parts of Penumbra together."
-	icon = 'modular_darkpack/modules/depreciated/icons/umbra.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/umbra.dmi'
 	icon_state = "tile1"
 	plane = GAME_PLANE
 	layer = BELOW_OBJ_LAYER
@@ -144,7 +144,7 @@
 /obj/umbra_portal
 	name = "gateway"
 	desc = "Step to the other side."
-	icon = 'modular_darkpack/modules/depreciated/icons/48x48.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x48.dmi'
 	icon_state = "portal"
 	density = TRUE
 	anchored = TRUE
@@ -182,5 +182,5 @@
 		if (interacting_mob.client)
 			var/turf/T = get_step(exit, get_dir(interacting_mob, src))
 			interacting_mob.forceMove(T)
-			playsound(loc, 'modular_darkpack/modules/depreciated/sound/portal_enter.ogg', 75, FALSE)
-			playsound(T, 'modular_darkpack/modules/depreciated/sound/portal_enter.ogg', 75, FALSE)
+			playsound(loc, 'modular_darkpack/modules/deprecated/sound/portal_enter.ogg', 75, FALSE)
+			playsound(T, 'modular_darkpack/modules/deprecated/sound/portal_enter.ogg', 75, FALSE)

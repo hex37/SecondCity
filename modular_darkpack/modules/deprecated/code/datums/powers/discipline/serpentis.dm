@@ -9,7 +9,7 @@
 	name = "Serpentis power name"
 	desc = "Serpentis power description"
 
-	activate_sound = 'modular_darkpack/modules/depreciated/sound/serpentis.ogg'
+	activate_sound = 'modular_darkpack/modules/deprecated/sound/serpentis.ogg'
 
 //THE EYES OF THE SERPENT
 /datum/discipline_power/serpentis/the_eyes_of_the_serpent
@@ -55,7 +55,7 @@
 		if(ishuman(target))
 			var/mob/living/carbon/human/H = target
 			H.remove_overlay(MUTATIONS_LAYER)
-			var/mutable_appearance/serpentis_overlay = mutable_appearance('modular_darkpack/modules/depreciated/icons/icons.dmi', "serpentis", -MUTATIONS_LAYER)
+			var/mutable_appearance/serpentis_overlay = mutable_appearance('modular_darkpack/modules/deprecated/icons/icons.dmi', "serpentis", -MUTATIONS_LAYER)
 			H.overlays_standing[MUTATIONS_LAYER] = serpentis_overlay
 			H.apply_overlay(MUTATIONS_LAYER)
 
@@ -75,7 +75,7 @@
 	target_type = TARGET_LIVING
 	range = 3
 
-	effect_sound = 'modular_darkpack/modules/depreciated/sound/tongue.ogg'
+	effect_sound = 'modular_darkpack/modules/deprecated/sound/tongue.ogg'
 	aggravating = TRUE
 	hostile = TRUE
 	violates_masquerade = TRUE
@@ -157,7 +157,7 @@
 /mob/living/simple_animal/hostile/cobra
 	name = "Cobra Form"
 	desc = "Hssssss..."
-	icon = 'modular_darkpack/modules/depreciated/icons/48x48.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x48.dmi'
 	icon_state = "cobra"
 	icon_living = "cobra"
 	mob_biotypes = MOB_ORGANIC | MOB_HUMANOID
@@ -221,7 +221,7 @@
 /obj/item/urn
 	name = "organ urn"
 	desc = "Stores some precious organs..."
-	icon = 'modular_darkpack/modules/depreciated/icons/icons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/icons.dmi'
 	icon_state = "urn"
 	is_magic = TRUE
 	var/mob/living/own

@@ -2,7 +2,7 @@
 	name = "Endron Facility"
 	icon_state = "supply"
 	zone_type = ZONE_NO_MASQUERADE
-	ambient_buzz = 'modular_darkpack/modules/depreciated/sound/ambience/night_ambience.ogg'
+	ambient_buzz = 'modular_darkpack/modules/deprecated/sound/ambience/night_ambience.ogg'
 	fire_controled = FALSE
 	yang_chi = 0
 	yin_chi = 1
@@ -12,7 +12,7 @@
 	name = "Endron Facility Restricted"
 	icon_state = "graveyard"
 	zone_type = ZONE_NO_MASQUERADE
-	ambient_buzz = 'modular_darkpack/modules/depreciated/sound/ambience/night_ambience.ogg'
+	ambient_buzz = 'modular_darkpack/modules/deprecated/sound/ambience/night_ambience.ogg'
 	fire_controled = FALSE
 	yang_chi = 0
 	yin_chi = 2

@@ -1,8 +1,8 @@
 /obj/item/melee/vampirearms
-	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	var/quieted = FALSE
 
 /obj/item/melee/vampirearms/Initialize(mapload)
@@ -10,7 +10,7 @@
 	AddComponent(/datum/component/selling, 25, "melee", FALSE)
 
 /obj/item/melee/vampirearms/fireaxe
-	icon = 'modular_darkpack/modules/depreciated/icons/48x32weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x32weapons.dmi'
 	icon_state = "fireaxe0"
 	name = "fire axe"
 	desc = "Truly, the weapon of a madman. Who would think to fight fire with an axe?"
@@ -68,7 +68,7 @@
 /obj/item/melee/vampirearms/katana
 	name = "katana"
 	desc = "An elegant weapon, its tiny edge is capable of cutting through flesh and bone with ease."
-	icon = 'modular_darkpack/modules/depreciated/icons/48x32weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x32weapons.dmi'
 	icon_state = "katana"
 	flags_1 = CONDUCT_1
 	force = 55
@@ -136,7 +136,7 @@
 /obj/item/melee/vampirearms/rapier
 	name = "rapier"
 	desc = "A thin, elegant sword, the rapier is a weapon of the duelist, designed for thrusting."
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
 	icon_state = "rapier"
 	flags_1 = CONDUCT_1
 	force = 48
@@ -161,7 +161,7 @@
 /obj/item/melee/vampirearms/machete
 	name = "machete"
 	desc = "A certified chopper fit for the jungles...but you don't see any vines around. Well-weighted enough to be thrown."
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
 	icon_state = "machete"
 	flags_1 = CONDUCT_1
 	force = 45
@@ -187,7 +187,7 @@
 /obj/item/melee/vampirearms/sabre
 	name = "sabre"
 	desc = "A curved sword, the sabre is a weapon of the cavalry, designed for slashing and thrusting."
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
 	icon_state = "sabre"
 	flags_1 = CONDUCT_1
 	force = 56
@@ -212,7 +212,7 @@
 /obj/item/melee/vampirearms/longsword
 	name = "longsword"
 	desc = "A classic weapon of the knight, the longsword is a versatile weapon that can be used for both cutting and thrusting."
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
 	icon_state = "longsword"
 	flags_1 = CONDUCT_1
 	force = 58
@@ -240,11 +240,11 @@
 	icon_state = "longsword_sheathe-1"
 	worn_icon_state = "longsword_sheathe"
 	w_class = WEIGHT_CLASS_BULKY
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
-	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
+	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	component_type = /datum/component/storage/concrete/vtm/sheathe
 
 /obj/item/storage/belt/vampire/sheathe/longsword
@@ -335,7 +335,7 @@
 /obj/item/melee/vampirearms/baseball
 	name = "baseball bat"
 	desc = "There ain't a skull in the league that can withstand a swatter."
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
 	icon_state = "baseball"
 	force = 30
 	wound_bonus = 5
@@ -371,7 +371,7 @@
 /obj/item/melee/vampirearms/tire
 	name = "tire iron"
 	desc = "Can be used as a tool or as a weapon."
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
 	icon_state = "pipe"
 	force = 20
 	wound_bonus = 10
@@ -386,7 +386,7 @@
 /obj/item/melee/vampirearms/knife
 	name = "knife"
 	desc = "Don't cut yourself accidentally."
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
 	icon_state = "knife"
 	force = 30
 	wound_bonus = -5
@@ -406,7 +406,7 @@
 /obj/item/melee/vampirearms/handsickle
 	name = "hand sickle"
 	desc = "Reap what they have sowed."
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
 	icon_state = "handsickle"
 	force = 30
 	wound_bonus = -5
@@ -460,7 +460,7 @@
 /obj/item/melee/touch_attack/werewolf
 	name = "\improper falling touch"
 	desc = "This is kind of like when you rub your feet on a shag rug so you can zap your friends, only a lot less safe."
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
 	catchphrase = null
 	on_use_sound = 'sound/magic/disintegrate.ogg'
 	icon_state = "falling"
@@ -485,7 +485,7 @@
 /obj/item/melee/vampirearms/chainsaw
 	name = "chainsaw"
 	desc = "A versatile power tool. Useful for limbing trees and delimbing humans."
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
 	icon_state = "chainsaw"
 	flags_1 = CONDUCT_1
 	force = 15
@@ -548,7 +548,7 @@
 /obj/item/vampire_stake
 	name = "stake"
 	desc = "Paralyzes blank-bodies if aimed straight to the heart."
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
 	icon_state = "stake"
 	force = 10
 //	wound_bonus = -10
@@ -584,7 +584,7 @@
 				qdel(src)
 
 /obj/item/melee/vampirearms/shovel
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
 	icon_state = "shovel"
 	name = "shovel"
 	desc = "Great weapon against mortal or immortal."
@@ -611,7 +611,7 @@
 /obj/item/melee/vampirearms/katana/kosa
 	name = "scythe"
 	desc = "More instrument, than a weapon. Instrumentally cuts heads..."
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
 	icon_state = "kosa"
 	force = 50
 	w_class = WEIGHT_CLASS_NORMAL
@@ -628,7 +628,7 @@
 	masquerade_violating = TRUE
 
 /obj/item/melee/vampirearms/eguitar
-	icon = 'modular_darkpack/modules/depreciated/icons/48x32weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x32weapons.dmi'
 	icon_state = "rock0"
 	name = "electric guitar"
 	desc = "You are pretty fly for a white guy..."
@@ -638,7 +638,7 @@
 	slot_flags = ITEM_SLOT_BACK | ITEM_SLOT_BELT
 	attack_verb_continuous = list("attacks", "chops", "rocks", "hits")
 	attack_verb_simple = list("attack", "chop", "rock", "hit")
-	hitsound = 'modular_darkpack/modules/depreciated/sound/rock.ogg'
+	hitsound = 'modular_darkpack/modules/deprecated/sound/rock.ogg'
 	sharpness = SHARP_EDGED
 	max_integrity = 200
 	armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, RAD = 0, FIRE = 100, ACID = 30)
@@ -660,13 +660,13 @@
 	if(result)
 		last_solo = world.time
 		if(result == "1")
-			playsound(loc, 'modular_darkpack/modules/depreciated/sound/solo1.ogg', 100, FALSE)
+			playsound(loc, 'modular_darkpack/modules/deprecated/sound/solo1.ogg', 100, FALSE)
 		if(result == "2")
-			playsound(loc, 'modular_darkpack/modules/depreciated/sound/solo2.ogg', 100, FALSE)
+			playsound(loc, 'modular_darkpack/modules/deprecated/sound/solo2.ogg', 100, FALSE)
 		if(result == "3")
-			playsound(loc, 'modular_darkpack/modules/depreciated/sound/solo3.ogg', 100, FALSE)
+			playsound(loc, 'modular_darkpack/modules/deprecated/sound/solo3.ogg', 100, FALSE)
 		if(result == "4")
-			playsound(loc, 'modular_darkpack/modules/depreciated/sound/solo4.ogg', 100, FALSE)
+			playsound(loc, 'modular_darkpack/modules/deprecated/sound/solo4.ogg', 100, FALSE)
 
 /obj/item/melee/vampirearms/eguitar/Initialize(mapload)
 	. = ..()
@@ -694,9 +694,9 @@
 	name = "\improper door"
 	desc = "It opens and closes."
 	icon_state = "door"
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
-	lefthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-	righthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
+	lefthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+	righthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
 	force = 20
 	block_chance = 25
 	throwforce = 40
@@ -713,7 +713,7 @@
 /obj/item/melee/classic_baton/vampire
 	name = "police baton"
 	desc = "Blunt instrument of justice."
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
 	icon_state = "baton"
 	w_class = WEIGHT_CLASS_NORMAL
 	attack_verb_continuous = list("bludgeons", "bashes", "beats")
@@ -777,10 +777,10 @@
 /obj/item/melee/vampirearms/brick
 	name = "Brick"
 	desc = "Killer of gods and men alike, builder of worlds vast."
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
 	icon_state = "red_brick"
-	lefthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	righthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
+	lefthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	righthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
 	w_class = WEIGHT_CLASS_NORMAL
 	armour_penetration = 0
 	throwforce = 30

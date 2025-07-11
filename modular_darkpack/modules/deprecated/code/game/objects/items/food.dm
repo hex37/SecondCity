@@ -1,8 +1,8 @@
 /obj/item/food/vampire
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	w_class = WEIGHT_CLASS_SMALL
-	eatsound = 'modular_darkpack/modules/depreciated/sound/eat.ogg'
+	eatsound = 'modular_darkpack/modules/deprecated/sound/eat.ogg'
 	var/biten = FALSE
 
 /obj/item/food/vampire/proc/got_biten()
@@ -53,8 +53,8 @@
 /obj/item/trash/vampirenugget
 	name = "chicken wing bone"
 	icon_state = "nugget0"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 
 /obj/item/food/vampire/nugget
 	name = "chicken wing"
@@ -72,8 +72,8 @@
 /obj/item/trash/vampirebar
 	name = "chocolate bar wrapper"
 	icon_state = "bar0"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 
 /obj/item/food/vampire/bar
 	name = "chocolate bar"
@@ -106,8 +106,8 @@
 /obj/item/trash/vampirecrisps
 	name = "chips wrapper"
 	icon_state = "crisps0"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 
 /obj/item/food/vampire/crisps
 	name = "chips"
@@ -120,7 +120,7 @@
 	tastes = list("salt" = 1, "crisps" = 1)
 	food_flags = FOOD_IN_CONTAINER
 	foodtypes = JUNKFOOD | FRIED
-	eatsound = 'modular_darkpack/modules/depreciated/sound/crisp.ogg'
+	eatsound = 'modular_darkpack/modules/deprecated/sound/crisp.ogg'
 
 /obj/item/food/vampire/crisps/proc/open_crisps(mob/user)
 	to_chat(user, "<span class='notice'>You pull back the wrapper of \the [src].</span>")
@@ -163,8 +163,8 @@
 	name = "coffee"
 	desc = "Careful, the beverage you're about to enjoy is extremely hot."
 	icon_state = "coffee"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	list_reagents = list(/datum/reagent/consumable/coffee = 30)
 	spillable = TRUE
 	resistance_flags = FREEZE_PROOF
@@ -179,8 +179,8 @@
 	name = "beer"
 	desc = "Beer."
 	icon_state = "beer"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	list_reagents = list(/datum/reagent/consumable/ethanol/beer = 30)
 	foodtype = GRAIN | ALCOHOL
 	custom_price = PAYCHECK_EASY
@@ -195,8 +195,8 @@
 	name = "two liter cola bottle"
 	desc = "Coca cola espuma..."
 	icon_state = "colared"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	isGlass = FALSE
 	list_reagents = list(/datum/reagent/consumable/space_cola = 100)
 	foodtype = SUGAR
@@ -224,8 +224,8 @@
 	name = "water bottle"
 	desc = "H2O."
 	icon_state = "water1"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	isGlass = FALSE
 	list_reagents = list(/datum/reagent/water = 100)
 	age_restricted = FALSE
@@ -234,8 +234,8 @@
 	name = "cola"
 	desc = "Coca cola espuma..."
 	icon_state = "colared2"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	list_reagents = list(/datum/reagent/consumable/space_cola = 50)
 	foodtype = SUGAR
 
@@ -248,8 +248,8 @@
 	name = "soda"
 	desc = "More water..."
 	icon_state = "soda"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	list_reagents = list(/datum/reagent/consumable/sodawater = 50)
 	foodtype = SUGAR
 
@@ -257,8 +257,8 @@
 	name = "milk"
 	desc = "More milk..."
 	icon_state = "milk"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	list_reagents = list(/datum/reagent/consumable/milk = 50)
 	fill_icon_thresholds = null
 
@@ -268,7 +268,7 @@
 /obj/food_cart
 	name = "food cart"
 	desc = "Ding-aling ding dong. Get your cholesterol!"
-	icon = 'modular_darkpack/modules/depreciated/icons/32x48.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/32x48.dmi'
 	icon_state = "vat1"
 	density = TRUE
 	anchored = TRUE

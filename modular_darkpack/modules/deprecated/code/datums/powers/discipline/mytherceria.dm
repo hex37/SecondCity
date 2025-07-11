@@ -9,7 +9,7 @@
 	name = "Mytherceria power name"
 	desc = "Mytherceria power description"
 
-	activate_sound = 'modular_darkpack/modules/depreciated/sound/kiasyd.ogg'
+	activate_sound = 'modular_darkpack/modules/deprecated/sound/kiasyd.ogg'
 
 //FEY SIGHT
 /datum/discipline_power/mytherceria/fey_sight
@@ -91,8 +91,8 @@
 /obj/item/clothing/mask/facehugger/kiasyd
 	name = "goblin"
 	desc = "A green changeling creature."
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	icon = 'modular_darkpack/modules/depreciated/icons/icons.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/icons.dmi'
 	icon_state = "goblin"
 	sterile = TRUE
 
@@ -175,7 +175,7 @@
 	anchored = TRUE
 	density = FALSE
 	alpha = 64
-	icon = 'modular_darkpack/modules/depreciated/icons/icons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/icons.dmi'
 	icon_state = "rune1"
 	color = "#4182ad"
 	var/unique = FALSE
@@ -185,7 +185,7 @@
 	..()
 	if(isliving(AM) && owner)
 		if(AM != owner)
-			playsound(get_turf(src), 'modular_darkpack/modules/depreciated/sound/kiasyd.ogg', 100, FALSE)
+			playsound(get_turf(src), 'modular_darkpack/modules/deprecated/sound/kiasyd.ogg', 100, FALSE)
 			if(!unique)
 				var/mob/living/L = AM
 				var/atom/throw_target = get_edge_target_turf(AM, get_dir(src, AM))

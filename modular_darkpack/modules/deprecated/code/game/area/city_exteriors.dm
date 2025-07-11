@@ -2,7 +2,7 @@
 	name = "Financial District"
 	icon_state = "financialdistrict"
 	ambience_index = AMBIENCE_CITY
-	ambient_buzz = 'modular_darkpack/modules/depreciated/sound/ambience/downtown.ogg'
+	ambient_buzz = 'modular_darkpack/modules/deprecated/sound/ambience/downtown.ogg'
 	upper = TRUE
 	wall_rating = HIGH_WALL_RATING
 
@@ -10,7 +10,7 @@
 	name = "Ghetto"
 	icon_state = "ghetto"
 	ambience_index = AMBIENCE_CITY
-	ambient_buzz = 'modular_darkpack/modules/depreciated/sound/ambience/downtown.ogg'
+	ambient_buzz = 'modular_darkpack/modules/deprecated/sound/ambience/downtown.ogg'
 	upper = TRUE
 	wall_rating = HIGH_WALL_RATING
 
@@ -18,7 +18,7 @@
 	name = "Pacific Heights"
 	icon_state = "pacificheights"
 	ambience_index = AMBIENCE_NATURE
-	ambient_buzz = 'modular_darkpack/modules/depreciated/sound/ambience/hollywood.ogg'
+	ambient_buzz = 'modular_darkpack/modules/deprecated/sound/ambience/hollywood.ogg'
 	upper = TRUE
 	wall_rating = HIGH_WALL_RATING
 
@@ -26,7 +26,7 @@
 	name = "Chinatown"
 	icon_state = "chinatown"
 	ambience_index = AMBIENCE_CITY
-	ambient_buzz = 'modular_darkpack/modules/depreciated/sound/ambience/chinatown.ogg'
+	ambient_buzz = 'modular_darkpack/modules/deprecated/sound/ambience/chinatown.ogg'
 	upper = TRUE
 	wall_rating = LOW_WALL_RATING	//Kinda chinatown is part of asia and has some deeper connection?
 
@@ -34,7 +34,7 @@
 	name = "Fisherman's Wharf"
 	icon_state = "fishermanswharf"
 	ambience_index = AMBIENCE_CITY
-	ambient_buzz = 'modular_darkpack/modules/depreciated/sound/ambience/santamonica.ogg'
+	ambient_buzz = 'modular_darkpack/modules/deprecated/sound/ambience/santamonica.ogg'
 	upper = TRUE
 	wall_rating = HIGH_WALL_RATING
 
@@ -42,7 +42,7 @@
 	name = "North Beach"
 	icon_state = "northbeach"
 	ambience_index = AMBIENCE_BEACH
-	ambient_buzz = 'modular_darkpack/modules/depreciated/sound/ambience/santamonica.ogg'
+	ambient_buzz = 'modular_darkpack/modules/deprecated/sound/ambience/santamonica.ogg'
 	upper = TRUE
 	wall_rating = HIGH_WALL_RATING
 
@@ -50,7 +50,7 @@
 	name = "Union Square"
 	icon_state = "unionsquare"
 	ambience_index = AMBIENCE_CITY
-	ambient_buzz = 'modular_darkpack/modules/depreciated/sound/ambience/downtown.ogg'
+	ambient_buzz = 'modular_darkpack/modules/deprecated/sound/ambience/downtown.ogg'
 	upper = TRUE
 	wall_rating = HIGH_WALL_RATING
 
@@ -102,7 +102,7 @@
 	icon_state = "anarch"
 	ambience_index = AMBIENCE_INTERIOR
 	upper = FALSE
-	ambient_buzz = 'modular_darkpack/modules/depreciated/sound/ambience/naive.ogg'
+	ambient_buzz = 'modular_darkpack/modules/deprecated/sound/ambience/naive.ogg'
 	zone_type = "elysium"
 	fire_controled = TRUE
 	wall_rating = HIGH_WALL_RATING
@@ -118,7 +118,7 @@
 /area/vtm/church
 	name = "Church"
 	icon_state = "church"
-	ambient_buzz = 'modular_darkpack/modules/depreciated/sound/ambience/hahihaho.ogg'
+	ambient_buzz = 'modular_darkpack/modules/deprecated/sound/ambience/hahihaho.ogg'
 	ambience_index = AMBIENCE_INTERIOR
 	upper = FALSE
 	fire_controled = TRUE
@@ -128,7 +128,7 @@
 	name = "Park"
 	icon_state = "park"
 	ambience_index = AMBIENCE_NATURE
-	ambient_buzz = 'modular_darkpack/modules/depreciated/sound/ambience/downtown.ogg'
+	ambient_buzz = 'modular_darkpack/modules/deprecated/sound/ambience/downtown.ogg'
 	upper = TRUE
 	yang_chi = 2
 	yin_chi = 0
@@ -137,7 +137,7 @@
 /area/vtm/elevator
 	name = "Elevator"
 	icon_state = "prince"
-	ambient_buzz = 'modular_darkpack/modules/depreciated/sound/ambience/lift.ogg'
+	ambient_buzz = 'modular_darkpack/modules/deprecated/sound/ambience/lift.ogg'
 	upper = FALSE
 	zone_type = "elysium"
 	fire_controled = TRUE
@@ -148,7 +148,7 @@
 	icon_state = "park"
 	upper = TRUE
 	zone_type = ZONE_NO_MASQUERADE
-	ambient_buzz = 'modular_darkpack/modules/depreciated/sound/ambience/night_ambience.ogg'
+	ambient_buzz = 'modular_darkpack/modules/deprecated/sound/ambience/night_ambience.ogg'
 	yang_chi = 2
 	yin_chi = 0
 	wall_rating = LOW_WALL_RATING	//for werewolves in future

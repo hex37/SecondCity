@@ -3,10 +3,10 @@
 	desc = "Wow! With enough of these, you could buy a lot! ...Pssh, yeah right."
 	singular_name = "dollar"
 	icon_state = "money1"
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	lefthand_file = null
 	righthand_file = null
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	w_class = WEIGHT_CLASS_TINY
 	max_amount = 1000
 	merge_type = /obj/item/stack/dollar

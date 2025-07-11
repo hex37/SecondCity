@@ -13,7 +13,7 @@
 	name = "Dementation power name"
 	desc = "Dementation power description"
 
-	activate_sound = 'modular_darkpack/modules/depreciated/sound/insanity.ogg'
+	activate_sound = 'modular_darkpack/modules/deprecated/sound/insanity.ogg'
 
 //PASSION
 /datum/discipline_power/dementation/passion
@@ -41,7 +41,7 @@
 /datum/discipline_power/dementation/passion/activate(mob/living/carbon/human/target)
 	. = ..()
 	target.remove_overlay(MUTATIONS_LAYER)
-	var/mutable_appearance/dementation_overlay = mutable_appearance('modular_darkpack/modules/depreciated/icons/icons.dmi', "dementation", -MUTATIONS_LAYER)
+	var/mutable_appearance/dementation_overlay = mutable_appearance('modular_darkpack/modules/deprecated/icons/icons.dmi', "dementation", -MUTATIONS_LAYER)
 	dementation_overlay.pixel_z = 1
 	//what the fuck
 	target.overlays_standing[MUTATIONS_LAYER] = dementation_overlay
@@ -84,7 +84,7 @@
 /datum/discipline_power/dementation/the_haunting/activate(mob/living/carbon/human/target)
 	. = ..()
 	target.remove_overlay(MUTATIONS_LAYER)
-	var/mutable_appearance/dementation_overlay = mutable_appearance('modular_darkpack/modules/depreciated/icons/icons.dmi', "dementation", -MUTATIONS_LAYER)
+	var/mutable_appearance/dementation_overlay = mutable_appearance('modular_darkpack/modules/deprecated/icons/icons.dmi', "dementation", -MUTATIONS_LAYER)
 	dementation_overlay.pixel_z = 1
 	//what the fuck
 	target.overlays_standing[MUTATIONS_LAYER] = dementation_overlay
@@ -123,7 +123,7 @@
 /datum/discipline_power/dementation/eyes_of_chaos/activate(mob/living/carbon/human/target)
 	. = ..()
 	target.remove_overlay(MUTATIONS_LAYER)
-	var/mutable_appearance/dementation_overlay = mutable_appearance('modular_darkpack/modules/depreciated/icons/icons.dmi', "dementation", -MUTATIONS_LAYER)
+	var/mutable_appearance/dementation_overlay = mutable_appearance('modular_darkpack/modules/deprecated/icons/icons.dmi', "dementation", -MUTATIONS_LAYER)
 	dementation_overlay.pixel_z = 1
 	//what the fuck
 	target.overlays_standing[MUTATIONS_LAYER] = dementation_overlay
@@ -166,7 +166,7 @@
 /datum/discipline_power/dementation/voice_of_madness/activate(mob/living/carbon/human/target)
 	. = ..()
 	target.remove_overlay(MUTATIONS_LAYER)
-	var/mutable_appearance/dementation_overlay = mutable_appearance('modular_darkpack/modules/depreciated/icons/icons.dmi', "dementation", -MUTATIONS_LAYER)
+	var/mutable_appearance/dementation_overlay = mutable_appearance('modular_darkpack/modules/deprecated/icons/icons.dmi', "dementation", -MUTATIONS_LAYER)
 	dementation_overlay.pixel_z = 1
 	//what the fuck
 	target.overlays_standing[MUTATIONS_LAYER] = dementation_overlay
@@ -205,7 +205,7 @@
 /datum/discipline_power/dementation/total_insanity/activate(mob/living/carbon/human/target)
 	. = ..()
 	target.remove_overlay(MUTATIONS_LAYER)
-	var/mutable_appearance/dementation_overlay = mutable_appearance('modular_darkpack/modules/depreciated/icons/icons.dmi', "dementation", -MUTATIONS_LAYER)
+	var/mutable_appearance/dementation_overlay = mutable_appearance('modular_darkpack/modules/deprecated/icons/icons.dmi', "dementation", -MUTATIONS_LAYER)
 	dementation_overlay.pixel_z = 1
 	//what the fuck
 	target.overlays_standing[MUTATIONS_LAYER] = dementation_overlay

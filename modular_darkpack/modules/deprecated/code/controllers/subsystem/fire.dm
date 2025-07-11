@@ -30,7 +30,7 @@ SUBSYSTEM_DEF(die_in_a_fire)
 
 /obj/effect/fire
 	name = "fire"
-	icon = 'modular_darkpack/modules/depreciated/icons/icons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/icons.dmi'
 	icon_state = "fire"
 	layer = FLY_LAYER
 	anchored = TRUE
@@ -48,7 +48,7 @@ SUBSYSTEM_DEF(die_in_a_fire)
 		color = "#808080"
 
 /obj/effect/fire/proc/handle_automated_spread()
-	playsound(get_turf(src), 'modular_darkpack/modules/depreciated/sound/fire.ogg', 80, TRUE)
+	playsound(get_turf(src), 'modular_darkpack/modules/deprecated/sound/fire.ogg', 80, TRUE)
 	var/area/AR = get_area(src)
 	if(AR.fire_controled)
 		AR.fire_extinguishment()
@@ -118,7 +118,7 @@ SUBSYSTEM_DEF(die_in_a_fire)
 				if(A != loc && A.burn_material)
 					var/obj/effect/fire/F = locate() in A
 					if(!F && prob(A.spread_chance))
-						playsound(get_turf(A), 'modular_darkpack/modules/depreciated/sound/spread.ogg', 80, TRUE)
+						playsound(get_turf(A), 'modular_darkpack/modules/deprecated/sound/spread.ogg', 80, TRUE)
 						var/obj/effect/fire/R = new(A)
 						R.color = color
 	else
@@ -149,13 +149,13 @@ SUBSYSTEM_DEF(die_in_a_fire)
 			qdel(src)
 		if(1)
 			stage = 1
-			icon = 'modular_darkpack/modules/depreciated/icons/icons.dmi'
+			icon = 'modular_darkpack/modules/deprecated/icons/icons.dmi'
 		if(2)
 			stage = 2
-			icon = 'modular_darkpack/modules/depreciated/icons/32x48.dmi'
+			icon = 'modular_darkpack/modules/deprecated/icons/32x48.dmi'
 		if(3)
 			stage = 3
-			icon = 'modular_darkpack/modules/depreciated/icons/64x64.dmi'
+			icon = 'modular_darkpack/modules/deprecated/icons/64x64.dmi'
 
 /turf/open/floor/Initialize(mapload)
 	..()

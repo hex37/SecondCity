@@ -1,7 +1,7 @@
 /obj/fusebox
 	name = "fuse box"
 	desc = "Power the controlled area with pure electricity."
-	icon = 'modular_darkpack/modules/depreciated/icons/32x48.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/32x48.dmi'
 	icon_state = "fusebox"
 	plane = GAME_PLANE
 	layer = CAR_LAYER
@@ -24,7 +24,7 @@
 	s.start()
 	for(var/obj/machinery/light/L in A)
 		L.update(FALSE)
-	playsound(loc, 'modular_darkpack/modules/depreciated/sound/explode.ogg', 100, TRUE)
+	playsound(loc, 'modular_darkpack/modules/deprecated/sound/explode.ogg', 100, TRUE)
 	if(user)
 		user.electrocute_act(50, src, siemens_coeff = 1, flags = NONE)
 
@@ -46,7 +46,7 @@
 
 	icon_state = "fusebox"
 	damaged = 0
-	playsound(get_turf(src),'modular_darkpack/modules/depreciated/sound/fix.ogg', 75, FALSE)
+	playsound(get_turf(src),'modular_darkpack/modules/deprecated/sound/fix.ogg', 75, FALSE)
 	var/area/A = get_area(src)
 	A.requires_power = FALSE
 	if (initial(A.fire_controled))

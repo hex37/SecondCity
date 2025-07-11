@@ -7,11 +7,11 @@
 /obj/item/clothing/shoes/vampire
 	name = "shoes"
 	desc = "Comfortable-looking shoes."
-	icon = 'modular_darkpack/modules/depreciated/icons/clothing.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/clothing.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
 	icon_state = "shoes"
 	gender = PLURAL
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 
 /obj/item/clothing/shoes/vampire/Initialize(mapload)
 	. = ..()

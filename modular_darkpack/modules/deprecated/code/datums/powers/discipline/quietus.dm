@@ -9,7 +9,7 @@
 	name = "Quietus power name"
 	desc = "Quietus power description"
 
-	activate_sound = 'modular_darkpack/modules/depreciated/sound/quietus.ogg'
+	activate_sound = 'modular_darkpack/modules/deprecated/sound/quietus.ogg'
 
 //SILENCE OF DEATH
 /datum/discipline_power/quietus/silence_of_death
@@ -40,7 +40,7 @@
 /obj/item/melee/touch_attack/quietus
 	name = "\improper poison touch"
 	desc = "This is kind of like when you rub your feet on a shag rug so you can zap your friends, only a lot less safe."
-	icon = 'modular_darkpack/modules/depreciated/icons/weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/weapons.dmi'
 	catchphrase = null
 	on_use_sound = 'sound/magic/disintegrate.ogg'
 	icon_state = "quietus"
@@ -153,7 +153,7 @@
 /obj/item/gun/magic/quietus
 	name = "acid spit"
 	desc = "Spit poison on your targets."
-	icon = 'modular_darkpack/modules/depreciated/icons/items.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/items.dmi'
 	icon_state = "har4ok"
 	item_flags = NEEDS_PERMIT | ABSTRACT | DROPDEL | NOBLUDGEON
 	flags_1 = NONE
@@ -182,7 +182,7 @@
 	if(charges == 0)
 		qdel(src)
 /*
-	playsound(target.loc, 'modular_darkpack/modules/depreciated/sound/quietus.ogg', 50, TRUE)
+	playsound(target.loc, 'modular_darkpack/modules/deprecated/sound/quietus.ogg', 50, TRUE)
 	target.Stun(5*level_casting)
 	if(level_casting >= 3)
 		if(target.bloodpool > 1)
@@ -192,7 +192,7 @@
 	if(ishuman(target))
 		var/mob/living/carbon/human/H = target
 		H.remove_overlay(MUTATIONS_LAYER)
-		var/mutable_appearance/quietus_overlay = mutable_appearance('modular_darkpack/modules/depreciated/icons/icons.dmi', "quietus", -MUTATIONS_LAYER)
+		var/mutable_appearance/quietus_overlay = mutable_appearance('modular_darkpack/modules/deprecated/icons/icons.dmi', "quietus", -MUTATIONS_LAYER)
 		H.overlays_standing[MUTATIONS_LAYER] = quietus_overlay
 		H.apply_overlay(MUTATIONS_LAYER)
 		spawn(5*level_casting)

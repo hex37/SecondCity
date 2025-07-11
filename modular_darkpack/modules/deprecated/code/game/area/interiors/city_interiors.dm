@@ -72,7 +72,7 @@
 	icon_state = "supply"
 	upper = FALSE
 	zone_type = ZONE_NO_MASQUERADE
-	ambient_buzz = 'modular_darkpack/modules/depreciated/sound/ambience/night_ambience.ogg'
+	ambient_buzz = 'modular_darkpack/modules/deprecated/sound/ambience/night_ambience.ogg'
 	fire_controled = TRUE
 	wall_rating = LOW_WALL_RATING
 
@@ -82,7 +82,7 @@
 	ambience_index = AMBIENCE_NATURE
 	upper = FALSE
 	zone_type = ZONE_NO_MASQUERADE
-	ambient_buzz = 'modular_darkpack/modules/depreciated/sound/ambience/penumbra.ogg'
+	ambient_buzz = 'modular_darkpack/modules/deprecated/sound/ambience/penumbra.ogg'
 	fire_controled = FALSE
 	wall_rating = LOW_WALL_RATING
 
@@ -99,7 +99,7 @@
 	name = "Wyrm Corruption"
 	icon_state = "graveyard"
 	zone_type = ZONE_NO_MASQUERADE
-	ambient_buzz = 'modular_darkpack/modules/depreciated/sound/ambience/night_ambience.ogg'
+	ambient_buzz = 'modular_darkpack/modules/deprecated/sound/ambience/night_ambience.ogg'
 	fire_controled = FALSE
 	yang_chi = 0
 	yin_chi = 2
@@ -109,7 +109,7 @@
 	name = "Old Clan Tzimisce Manor"
 	icon_state = "old_clan_tzimisce"
 	zone_type = "elysium"
-	ambient_buzz = 'modular_darkpack/modules/depreciated/sound/ambience/prince.ogg'
+	ambient_buzz = 'modular_darkpack/modules/deprecated/sound/ambience/prince.ogg'
 	wall_rating = HIGH_WALL_RATING
 
 /area/vtm/interior/strip_elysium

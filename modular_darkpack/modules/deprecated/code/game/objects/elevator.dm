@@ -155,7 +155,7 @@
 
 /obj/elevator_door
 	name = "elevator door"
-	icon = 'modular_darkpack/modules/depreciated/icons/doors.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/doors.dmi'
 	icon_state = "elevator-0"
 	anchored = TRUE
 	density = FALSE
@@ -178,7 +178,7 @@
 
 /obj/elevator_door/start_closed
 	name = "elevator door"
-	icon = 'modular_darkpack/modules/depreciated/icons/doors.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/doors.dmi'
 	icon_state = "elevator-1"
 	density = TRUE
 	opacity = TRUE

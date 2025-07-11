@@ -1,12 +1,12 @@
 /obj/item/vampire/drill
 	name = "thermal drill"
 	desc = "Guys! The thermal drill, go get it!"
-	icon = 'modular_darkpack/modules/depreciated/icons/48x32weapons.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/48x32weapons.dmi'
 	icon_state = "vaultdrill"
 	inhand_icon_state = "vaultdrill"
-	lefthand_file = 'modular_darkpack/modules/depreciated/icons/lefthand.dmi'
-	righthand_file = 'modular_darkpack/modules/depreciated/icons/righthand.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	lefthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	righthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 	w_class = WEIGHT_CLASS_HUGE
 	force = 8
 	throwforce = 10
@@ -32,7 +32,7 @@
 /obj/structure/drill
 	name = "thermal drill"
 	desc = "Guys! The thermal drill, go get it!"
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	icon_state = "vaultdrill"
 	anchored = TRUE
 	density = TRUE
@@ -46,7 +46,7 @@
 	var/active = FALSE
 	var/attached_door = null
 
-	var/drill_sound = 'modular_darkpack/modules/depreciated/sound/vault_drilling.ogg'
+	var/drill_sound = 'modular_darkpack/modules/deprecated/sound/vault_drilling.ogg'
 
 /obj/structure/drill/proc/health_status()
 	if(obj_integrity < max_integrity)
@@ -107,7 +107,7 @@
 					pixel_y = -5
 
 /obj/structure/drill/proc/update_effects()
-	var/mutable_appearance/sparks = mutable_appearance('modular_darkpack/modules/depreciated/icons/particle_effects.dmi', "welding_sparks", ABOVE_ALL_MOB_LAYERS_LAYER, ABOVE_LIGHTING_PLANE)
+	var/mutable_appearance/sparks = mutable_appearance('modular_darkpack/modules/deprecated/icons/particle_effects.dmi', "welding_sparks", ABOVE_ALL_MOB_LAYERS_LAYER, ABOVE_LIGHTING_PLANE)
 	if(active)
 		add_overlay(sparks)
 	else

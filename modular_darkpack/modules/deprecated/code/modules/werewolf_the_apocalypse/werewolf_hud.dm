@@ -7,7 +7,7 @@
 /mob/living/Initialize(mapload)
 	. = ..()
 	gnosis = new(src)
-	gnosis.icon = 'modular_darkpack/modules/depreciated/icons/48x48.dmi'
+	gnosis.icon = 'modular_darkpack/modules/deprecated/icons/48x48.dmi'
 	gnosis.plane = ABOVE_HUD_PLANE
 	gnosis.layer = ABOVE_HUD_LAYER
 

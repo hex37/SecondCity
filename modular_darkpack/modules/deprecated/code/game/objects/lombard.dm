@@ -3,7 +3,7 @@
 	desc = "Sell your stuff."
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF | FREEZE_PROOF
 	icon_state = "sell"
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	anchored = TRUE
 	var/black_market = FALSE
 
@@ -24,7 +24,7 @@
 		to_chat(user, sold_sc.sale_fail_message())
 		return
 	generate_money(sold, user)
-	playsound(loc, 'modular_darkpack/modules/depreciated/sound/sell.ogg', 50, TRUE)
+	playsound(loc, 'modular_darkpack/modules/deprecated/sound/sell.ogg', 50, TRUE)
 	to_chat(user, sold_sc.sale_success_message())
 	var/mob/living/carbon/human/seller = user
 	if(istype(seller))
@@ -45,7 +45,7 @@
 		to_chat(user, sold_sc.sale_success_message())
 		sold_items += sold
 	if(succeeded_sale)
-		playsound(loc, 'modular_darkpack/modules/depreciated/sound/sell.ogg', 50, TRUE)
+		playsound(loc, 'modular_darkpack/modules/deprecated/sound/sell.ogg', 50, TRUE)
 	return sold_items
 	//Humanity adjustment and item deletion is handled in lombard/MouseDrop_T()
 
@@ -146,6 +146,6 @@
 	desc = "Sell illegal goods."
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF | FREEZE_PROOF
 	icon_state = "sell_d"
-	icon = 'modular_darkpack/modules/depreciated/icons/props.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/props.dmi'
 	anchored = TRUE
 	black_market = TRUE

@@ -38,7 +38,7 @@ SUBSYSTEM_DEF(zombiepool)
 /obj/structure/vampgate
 	name = "Graveyard Gate"
 	desc = "It opens and closes."
-	icon = 'modular_darkpack/modules/depreciated/icons/gate.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/gate.dmi'
 	icon_state = "gate"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYER
@@ -51,7 +51,7 @@ SUBSYSTEM_DEF(zombiepool)
 	var/repairing = FALSE
 
 /obj/structure/vampgate/proc/punched()
-	playsound(get_turf(src), 'modular_darkpack/modules/depreciated/sound/get_bent.ogg', 100, FALSE)
+	playsound(get_turf(src), 'modular_darkpack/modules/deprecated/sound/get_bent.ogg', 100, FALSE)
 	pixel_z = pixel_z+rand(-1, 1)
 	pixel_w = pixel_w+rand(-1, 1)
 	punches_to_break = max(0, punches_to_break-1)
@@ -88,7 +88,7 @@ SUBSYSTEM_DEF(zombiepool)
 				if(punches_to_break)
 					density = TRUE
 					icon_state = "gate"
-				playsound(src, 'modular_darkpack/modules/depreciated/sound/repair.ogg', 50, TRUE)
+				playsound(src, 'modular_darkpack/modules/deprecated/sound/repair.ogg', 50, TRUE)
 				to_chat(user, "<span class='notice'>You repair some dents on [src].</span>")
 				repairing = FALSE
 			else

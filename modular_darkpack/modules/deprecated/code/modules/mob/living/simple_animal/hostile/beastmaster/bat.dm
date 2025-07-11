@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/beastmaster/rat/flying
-	icon = 'modular_darkpack/modules/depreciated/icons/mobs.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/mobs.dmi'
 	icon_state = "bat"
 	icon_living = "bat"
 	icon_dead = "bat_dead"

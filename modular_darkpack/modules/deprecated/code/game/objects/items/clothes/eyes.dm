@@ -5,9 +5,9 @@
 //GLASSES
 
 /obj/item/clothing/glasses/vampire
-	icon = 'modular_darkpack/modules/depreciated/icons/clothing.dmi'
-	worn_icon = 'modular_darkpack/modules/depreciated/icons/worn.dmi'
-	onflooricon = 'modular_darkpack/modules/depreciated/icons/onfloor.dmi'
+	icon = 'modular_darkpack/modules/deprecated/icons/clothing.dmi'
+	worn_icon = 'modular_darkpack/modules/deprecated/icons/worn.dmi'
+	onflooricon = 'modular_darkpack/modules/deprecated/icons/onfloor.dmi'
 
 /obj/item/clothing/glasses/vampire/yellow
 	name = "yellow aviators"
