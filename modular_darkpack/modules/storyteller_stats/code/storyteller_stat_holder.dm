@@ -50,3 +50,7 @@
 /datum/storyteller_stats/proc/randomize_abilities(min_score, max_score)
 	for(var/datum/st_stat/ability/A in st_stats)
 		A.set_score(rand(min_score, max_score))
+
+/datum/storyteller_stats/is_health_affecting(stat_path)
+	var/datum/st_stat/A = get_stat(stat_path)
+	return A.stat.affects_health_pool

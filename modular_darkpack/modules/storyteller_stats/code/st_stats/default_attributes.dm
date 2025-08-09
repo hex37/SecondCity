@@ -8,6 +8,7 @@
 
 /datum/st_stat/attribute/stamina
 	name = "Stamina"
+	affects_health_pool = TRUE
 
 // Social
 /datum/st_stat/attribute/charisma

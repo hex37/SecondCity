@@ -8,6 +8,9 @@
 	//determines the base type for this class, so we don't add in empty types
 	var/base_type = /datum/st_stat
 
+	//if a stat affects the hp pool, recalculate the hp of the mob when changed.
+	var/affects_health_pool = FALSE
+
 	/// A dictionary of modifiers to this attribute.
 	var/list/modifiers = list()
 
