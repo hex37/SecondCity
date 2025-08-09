@@ -96,7 +96,7 @@
 	if(iscarbon(target))
 		var/mob/living/carbon/hit_person = target
 		if(SSroll.storyteller_roll(
-			dice = hit_person.trait_holder.get_stat(ST_TRAIT_STRENGTH) + min(hit_person.trait_holder.get_stat(ST_TRAIT_DEXTERITY) + hit_person.trait_holder.get_stat(ST_TRAIT_ATHLETICS)),
+			dice = hit_person.get_stat(STAT_STRENGTH) + min(hit_person.get_stat(STAT_DEXTERITY) + hit_person.get_stat(STAT_ATHLETICS)),
 			difficulty = 3 + (!isnull(firer) ? rand(1,2) : 0),
 			mobs_to_show_output = target
 		) == ROLL_FAILURE)

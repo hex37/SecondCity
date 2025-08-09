@@ -24,8 +24,8 @@
 	H.set_species(/datum/species/human)
 	H.set_clan(null)
 	H.generation = 13
-	H.trait_holder.set_stat(5, ST_TRAIT_LARCENY)
-	H.trait_holder.set_stat(4, ST_TRAIT_STRENGTH)
+	H.st_set_stat(5, STAT_LARCENY)
+	H.st_set_stat(4, STAT_STRENGTH)
 	H.ignores_warrant = TRUE
 	H.update_max_health()
 
