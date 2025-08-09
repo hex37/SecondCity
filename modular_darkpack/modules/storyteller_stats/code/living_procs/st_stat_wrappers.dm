@@ -13,7 +13,7 @@
 
 /*
 * wrapper for setting a stat's value in the storyteller stat holder
-* Causes total hp recalculation if the modded stat is stamina.
+* Causes total hp recalculation if the modded stat affects the hp pool.
 */
 /mob/living/proc/st_set_stat(stat_path, amount)
 	if(storyteller_stat_holder)
