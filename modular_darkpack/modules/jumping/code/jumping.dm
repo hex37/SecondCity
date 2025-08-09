@@ -20,9 +20,9 @@
 		return
 
 	var/mob/living/carbon/H = src
-	var/strength = H.get_stat(STAT_STRENGTH)
-	var/dexterity = H.get_stat(STAT_DEXTERITY)
-	var/athletics = H.get_stat(STAT_ATHLETICS)
+	var/strength = H.st_get_stat(STAT_STRENGTH)
+	var/dexterity = H.st_get_stat(STAT_DEXTERITY)
+	var/athletics = H.st_get_stat(STAT_ATHLETICS)
 
 	if(HAS_TRAIT(H, TRAIT_IMMOBILIZED) || H.legcuffed)
 		return

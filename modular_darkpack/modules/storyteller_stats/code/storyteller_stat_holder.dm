@@ -16,29 +16,29 @@
 	. = ..()
 	QDEL_LIST(st_stats)
 
-/// Return the total or pure score of the given trait.
-/datum/storyteller_stats/proc/get_stat(trait, include_bonus = TRUE)
-	var/datum/st_stat/A = st_stats[trait]
+/// Return the total or pure score of the given stat.
+/datum/storyteller_stats/proc/get_stat(stat_path, include_bonus = TRUE)
+	var/datum/st_stat/A = st_stats[stat_path]
 	return A.get_score(include_bonus)
 
-/// Sets the score of the given trait.
-/datum/storyteller_stats/proc/st_set_stat(trait, amount)
-	var/datum/st_stat/A = st_stats[trait]
+/// Sets the score of the given stat.
+/datum/storyteller_stats/proc/set_stat(stat_path, amount)
+	var/datum/st_stat/A = st_stats[stat_path]
 	A.set_score(amount)
 
-/// Return the instance of the given trait.
-/datum/storyteller_stats/proc/get_stat_datum(trait)
+/// Return the instance of the given stat.
+/datum/storyteller_stats/proc/get_stat_datum(stat_path)
 	RETURN_TYPE(/datum/st_stat)
-	var/datum/st_stat/A = st_stats[trait]
+	var/datum/st_stat/A = st_stats[stat_path]
 	return A
 
-/datum/storyteller_stats/proc/add_stat_mod(trait, amount, source)
-	var/datum/st_stat/A = get_stat(trait)
+/datum/storyteller_stats/proc/add_stat_mod(stat_path, amount, source)
+	var/datum/st_stat/A = get_stat(stat_path)
 	LAZYSET(A.modifiers, source, amount)
 	A.update_modifiers()
 
-/datum/storyteller_stats/proc/remove_stat_mod(trait, source)
-	var/datum/st_stat/A = get_stat(trait)
+/datum/storyteller_stats/proc/remove_stat_mod(stat_path, source)
+	var/datum/st_stat/A = get_stat(stat_path)
 	if(LAZYACCESS(A.modifiers, source))
 		A.modifiers -= source
 		A.update_modifiers()

@@ -2,7 +2,7 @@ https://github.com/DarkPack13/SecondCity/pull/38
 
 ## Storyteller stats
 
-Module ID: storyteller_stats <!-- Uppercase, UNDERSCORE_CONNECTED name of your module, that you use to mark files. This is so people can case-sensitive search for your edits, if any. -->
+Module ID: STORYTELLER_STATS <!-- Uppercase, UNDERSCORE_CONNECTED name of your module, that you use to mark files. This is so people can case-sensitive search for your edits, if any. -->
 
 ### Description:
 
