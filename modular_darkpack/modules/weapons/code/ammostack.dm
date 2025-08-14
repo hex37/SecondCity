@@ -220,8 +220,7 @@
 	. = ..()
 	var/patroni = 0
 	for(var/obj/item/ammo_casing/vampire/V in src)
-		if(V)
-			patroni = max(0, patroni+1)
+		patroni = max(0, patroni+1)
 	if(patroni)
 		if(patroni > 1)
 			icon_state = "[base_caliber]-[patroni]"
@@ -232,8 +231,7 @@
 	. = ..()
 	var/patroni = 0
 	for(var/obj/item/ammo_casing/vampire/V in src)
-		if(V)
-			patroni = max(0, patroni+1)
+		patroni = max(0, patroni+1)
 	if(istype(I, /obj/item/ammo_casing/vampire))
 		var/obj/item/ammo_casing/vampire/V = I
 		if(patroni < max_patroni && V.base_iconstate = base_caliber)
