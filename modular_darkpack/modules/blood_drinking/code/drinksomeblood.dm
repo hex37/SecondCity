@@ -12,7 +12,7 @@
 		mob.Stun(40) //NPCs don't get to resist
 
 	if(mob.blood_volume <= BLOOD_VOLUME_BAD)
-		to_chat(src, "<span class='warning'>Your victim's heart beats only weakly. Death comes for them.</span>")
+		to_chat(src, span_warning("Your victim's heart beats only weakly. Death comes for them."))
 
 	//Check if we can drink this person to death
 	if(mob.bloodpool <= 0 && !check_can_drink_dry(mob))
