@@ -26,7 +26,7 @@
 	if(!HAS_TRAIT(src, TRAIT_BLOODY_LOVER) && CheckEyewitness(src, src, 7, FALSE))
 		adjust_masquerade(-1)
 
-	if(!do_after(src, 30, target = mob, timed_action_flags = NONE, progress = FALSE))
+	if(!do_after(src, 3 SECONDS, target = mob, timed_action_flags = NONE, progress = FALSE))
 		remove_drinking_overlay(mob)
 		if(!(SEND_SIGNAL(mob, COMSIG_MOB_VAMPIRE_SUCKED, mob) & COMPONENT_RESIST_VAMPIRE_KISS))
 			mob.apply_status_effect(/datum/status_effect/kissed)
