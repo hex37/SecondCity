@@ -1,6 +1,6 @@
 /datum/preference/numeric/generation
 	category = PREFERENCE_CATEGORY_SECONDARY_FEATURES
-	savefile_key = "immortal_age"
+	savefile_key = "generation"
 	savefile_identifier = PREFERENCE_CHARACTER
 	priority = PREFERENCE_PRIORITY_TABLETOP
 	minimum = 7
