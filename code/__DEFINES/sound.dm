@@ -1,4 +1,5 @@
 //max channel is 1024. Only go lower from here, because byond tends to pick the first available channel to play sounds on
+#define CHANNEL_BLOOD 1025
 #define CHANNEL_LOBBYMUSIC 1024
 #define CHANNEL_ADMIN 1023
 #define CHANNEL_VOX 1022
