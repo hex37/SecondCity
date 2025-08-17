@@ -10,7 +10,7 @@
 	var/mutable_appearance/bite_overlay = mutable_appearance('modular_darkpack/modules/deprecated/icons/icons.dmi', "bite", -HALO_LAYER)
 	overlays_standing[HALO_LAYER] = bite_overlay
 	apply_overlay(HALO_LAYER)
-	addtimer(CALLBACK(src, PROC_REF(clear_bite_animation_overlay)), 15, TIMER_OVERRIDE)
+	addtimer(CALLBACK(src, PROC_REF(clear_bite_animation_overlay)), 1.5 SECONDS)
 
 /mob/living/carbon/human/proc/clear_bite_animation_overlay()
 	if(src)
