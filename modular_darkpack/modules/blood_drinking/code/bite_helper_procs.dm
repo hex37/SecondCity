@@ -1,7 +1,7 @@
 //Wrapper function for adjusting a kindred/ghoul's blood pool
 /mob/living/proc/adjustBloodPool(blood_delta, on_spawn = FALSE)
 	if(on_spawn)
-		bloodpool=0
+		bloodpool = 0
 	bloodpool = clamp(bloodpool+blood_delta, 0, maxbloodpool)
 
 //runs a bite animation for biting people and biting people and biting p
@@ -10,9 +10,11 @@
 	var/mutable_appearance/bite_overlay = mutable_appearance('modular_darkpack/modules/deprecated/icons/icons.dmi', "bite", -HALO_LAYER)
 	overlays_standing[HALO_LAYER] = bite_overlay
 	apply_overlay(HALO_LAYER)
-	spawn(15)
-		if(src)
-			remove_overlay(HALO_LAYER)
+	addtimer(CALLBACK(src, PROC_REF(clear_bite_animation_overlay)), 15, TIMER_OVERRIDE)
+
+/mob/living/carbon/human/proc/clear_bite_animation_overlay()
+	if(src)
+		remove_overlay(HALO_LAYER)
 
 
 //Here is where you handle any circumstantial modifiers to bloodpool gains

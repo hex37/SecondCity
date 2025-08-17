@@ -3,11 +3,11 @@
 		return TRUE
 
 	if(!mob.client)
-		to_chat(src, "<span class='warning'>You need [mob]'s attention to do that...</span>")
+		to_chat(src, span_warning("You need [mob]'s attention to do that..."))
 		return FALSE
 
 	message_admins("[ADMIN_LOOKUPFLW(src)] is attempting to Diablerize [ADMIN_LOOKUPFLW(mob)]")
 	log_attack("[key_name(src)] is attempting to Diablerize [key_name(mob)].")
 
-	to_chat(src, "<span class='userdanger'><b>YOU TRY TO COMMIT DIABLERIE ON [mob].</b></span>")
+	to_chat(src, span_userdanger(span_bold("YOU TRY TO COMMIT DIABLERIE ON [mob].")))
 	return TRUE

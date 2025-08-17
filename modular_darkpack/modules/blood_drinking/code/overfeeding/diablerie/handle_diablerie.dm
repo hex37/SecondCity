@@ -4,7 +4,6 @@
 
 	var/mob/living/carbon/human/mob_human = mob
 	AdjustHumanity(-1, 0)
-	adjust_masquerade(-1)
 
 	if(mob_human.generation >= generation)
 		message_admins("[ADMIN_LOOKUPFLW(src)] successfully Diablerized [ADMIN_LOOKUPFLW(mob)]")

@@ -11,5 +11,4 @@
 		SEND_SOUND(src, sound('modular_darkpack/modules/deprecated/sounds/feed_failed.ogg', 0, 0, 75))
 		to_chat(src, span_warning("This sad sacrifice for your own pleasure affects something deep in your mind."))
 		AdjustHumanity(-1, 0)
-		adjust_masquerade(-1)
 		human_mob.death()

@@ -1,5 +1,4 @@
 //max channel is 1024. Only go lower from here, because byond tends to pick the first available channel to play sounds on
-#define CHANNEL_BLOOD 1025
 #define CHANNEL_LOBBYMUSIC 1024
 #define CHANNEL_ADMIN 1023
 #define CHANNEL_VOX 1022
@@ -13,9 +12,10 @@
 #define CHANNEL_ELEVATOR 1014
 #define CHANNEL_ESCAPEMENU 1013
 #define CHANNEL_WEATHER 1012
+#define CHANNEL_BLOOD 1011
 //THIS SHOULD ALWAYS BE THE LOWEST ONE!
 //KEEP IT UPDATED
-#define CHANNEL_HIGHEST_AVAILABLE 1011
+#define CHANNEL_HIGHEST_AVAILABLE 1010
 
 #define MAX_INSTRUMENT_CHANNELS (128 * 6)
 
