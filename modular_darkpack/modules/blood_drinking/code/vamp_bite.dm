@@ -1,11 +1,9 @@
 //this code is what should be called every time blood drinking is used on a character
 /mob/living/carbon/human/proc/vamp_bite()
 	src.update_blood_hud()
-	if(world.time < src.last_drinkblood_use+30)
+	if(!COOLDOWN_FINISHED(src, drinkblood_use_cd) || !COOLDOWN_FINISHED(src, drinkblood_click_cd))
 		return
-	if(world.time < src.last_drinkblood_click+10)
-		return
-	src.last_drinkblood_click = world.time
+	COOLDOWN_START(src, drinkblood_click_cd, 1 SECONDS)
 	if(src.grab_state > GRAB_PASSIVE)
 		if(ishuman(src.pulling))
 			var/mob/living/carbon/human/PB = src.pulling

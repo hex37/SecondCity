@@ -1,5 +1,5 @@
 /mob/living/carbon/human/proc/drinksomeblood(var/mob/living/mob,  first_drink = FALSE)
-	last_drinkblood_use = world.time
+	COOLDOWN_START(src, drinkblood_use_cd, 3 SECONDS)
 	update_drinking_overlay(mob)
 
 	if(HAS_TRAIT(src, TRAIT_BLOODY_SUCKER))
