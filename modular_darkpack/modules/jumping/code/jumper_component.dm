@@ -93,9 +93,8 @@
 
 //Produces a boom effect for ludicrously high strength/physique scores
 /datum/component/jumper/proc/jump_boom(mob/living/jumper)
-	playsound(get_turf(jumper), 'modular_darkpack/modules/jumping/sounds/jump_slam.ogg', 100, FALSE)
+	playsound(get_turf(jumper), 'modular_darkpack/modules/jumping/sounds/jump_slam.ogg', 40, FALSE)
 	new /obj/effect/temp_visual/dir_setting/crack_effect(get_turf(jumper))
-	new /obj/effect/temp_visual/shockwave(get_turf(jumper),  8, 0.5, QUAD_EASING | EASE_OUT, 8)
 	for(var/mob/living/shaken_person in range(5, jumper))
 		if(shaken_person == jumper)
 			continue

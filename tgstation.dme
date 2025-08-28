@@ -6787,7 +6787,6 @@
 #include "modular_darkpack\modules\economy\code\dollar.dm"
 #include "modular_darkpack\modules\economy\code\economy_globals.dm"
 #include "modular_darkpack\modules\effects\code\crack_effect.dm"
-#include "modular_darkpack\modules\effects\code\shockwave.dm"
 #include "modular_darkpack\modules\electricity\code\electricity_globals.dm"
 #include "modular_darkpack\modules\fire\code\fire_globals.dm"
 #include "modular_darkpack\modules\government\code\passport.dm"
