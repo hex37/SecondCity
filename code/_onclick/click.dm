@@ -332,7 +332,7 @@
 	. = SEND_SIGNAL(src, COMSIG_MOB_MIDDLECLICKON, A, params)
 	if(. & COMSIG_MOB_CANCEL_CLICKON)
 		return
-	//swap_hand() DARKPACK EDIT - Swapping hands on middle click removed.
+	//swap_hand() DARKPACK EDIT REMOVAL - Swapping hands on middle click removed.
 
 /**
  * Shift click
