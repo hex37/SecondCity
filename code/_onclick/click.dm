@@ -332,7 +332,7 @@
 	. = SEND_SIGNAL(src, COMSIG_MOB_MIDDLECLICKON, A, params)
 	if(. & COMSIG_MOB_CANCEL_CLICKON)
 		return
-	//swap_hand() DARKPACK EDIT - Swapping hands on middle click removed.
+	//swap_hand() DARKPACK EDIT REMOVAL - Swapping hands on middle click removed.
 
 /**
  * Shift click
@@ -436,7 +436,7 @@
 
 /atom/movable/screen/click_catcher/Click(location, control, params)
 	var/list/modifiers = params2list(params)
-	//DARKPACK_EDIT START - remove middle click swapping hands.
+	// DARKPACK EDIT REMOVAL START - remove middle click swapping hands.
 	/*
 	if(LAZYACCESS(modifiers, MIDDLE_CLICK) && iscarbon(usr))
 		var/mob/living/carbon/C = usr
@@ -451,7 +451,7 @@
 	if (click_turf)
 		modifiers["catcher"] = TRUE
 		click_turf.Click(click_turf, control, list2params(modifiers))
-	//DARKPACK_EDIT END
+	// DARKPACK EDIT REMOVAL END
 	. = 1
 
 /// MouseWheelOn
