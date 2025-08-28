@@ -451,7 +451,7 @@
 	if (click_turf)
 		modifiers["catcher"] = TRUE
 		click_turf.Click(click_turf, control, list2params(modifiers))
-	//DARKPACK_EDIT END
+	// DARKPACK EDIT REMOVAL END
 	. = 1
 
 /// MouseWheelOn
