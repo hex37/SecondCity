@@ -436,7 +436,7 @@
 
 /atom/movable/screen/click_catcher/Click(location, control, params)
 	var/list/modifiers = params2list(params)
-	//DARKPACK_EDIT START - remove middle click swapping hands.
+	// DARKPACK EDIT REMOVAL START - remove middle click swapping hands.
 	/*
 	if(LAZYACCESS(modifiers, MIDDLE_CLICK) && iscarbon(usr))
 		var/mob/living/carbon/C = usr
