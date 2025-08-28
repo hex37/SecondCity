@@ -5,17 +5,31 @@
 
 /datum/component/jumper
 	COOLDOWN_DECLARE(jump_cooldown)
+	var/prepared_to_jump = FALSE
 
 /datum/component/jumper/Initialize()
 	. = ..()
 	if(!isliving(parent))
 		return ELEMENT_INCOMPATIBLE
 	RegisterSignal(parent, COMSIG_MOB_CLICKON, PROC_REF(try_jump))
+	RegisterSignal(parent, COMSIG_LIVING_JUMP_PREP_TOGGLE, PROC_REF(toggle_jumping))
+
+//Toggles whether a left click will perform a jump.
+//We have this functionality so players without a 3rd mouse button can still jump around.
+/datum/component/jumper/proc/toggle_jumping(datum/source)
+	SIGNAL_HANDLER
+	prepared_to_jump = !prepared_to_jump
+
+	if(prepared_to_jump)
+		to_chat(source, span_notice("You prepare to jump."))
+	else
+		to_chat(source, span_notice("You are not prepared to jump anymore."))
+
 
 //Ensures that a jump can actually be performed
 /datum/component/jumper/proc/try_jump(mob/living/jumper, atom/target, list/modifiers)
 	SIGNAL_HANDLER
-	if(!(jumper.prepared_to_jump && LAZYACCESS(modifiers, LEFT_CLICK)) && !LAZYACCESS(modifiers, MIDDLE_CLICK))
+	if(!(prepared_to_jump && LAZYACCESS(modifiers, LEFT_CLICK)) && !LAZYACCESS(modifiers, MIDDLE_CLICK))
 		return
 
 	if(jumper.stat >= UNCONSCIOUS)
@@ -76,8 +90,13 @@
 
 	playsound(jumper.loc, 'modular_darkpack/modules/jumping/sounds/jump_neutral.ogg', 50, TRUE)
 
-	if(get_dist(jumper.loc, target) <= 3 && strength >= 8)
+	if(jumper.combat_mode && get_dist(jumper.loc, target) <= 3 && strength >= 8)
 		addtimer(CALLBACK(src, PROC_REF(jump_boom), jumper),(distance * 0.5))
+		jumper.visible_message(span_danger("[jumper] takes a mighty leap that shatters \the [adjusted_target] where they land!"))
+		jumper.adjustStaminaLoss(20)
+	else
+		jumper.adjustStaminaLoss(10)
+		jumper.visible_message(span_danger("[jumper] jumps towards [adjusted_target]."))
 
 	var/turf/start_T = get_turf(jumper.loc) //Get the start and target tile for the descriptors
 	var/turf/end_T = get_turf(adjusted_target)
@@ -86,8 +105,6 @@
 
 	jumper.newtonian_move(get_dir(adjusted_target, jumper))
 	jumper.safe_throw_at(adjusted_target, jumper.throw_range, jumper.throw_speed, jumper, null, null, null, jumper.move_force, spin = FALSE)
-
-	jumper.visible_message(span_danger("[jumper] jumps towards [adjusted_target]."))
 
 	COOLDOWN_START(src, jump_cooldown, max(JUMP_DELAY - (0.4 * dexterity) - (1 * athletics), 1))
 
@@ -99,9 +116,10 @@
 		if(shaken_person == jumper)
 			continue
 		shaken_person.Stun(20)
-		shake_camera(shaken_person, (6-get_dist(shaken_person, jumper))+1, (6-get_dist(shaken_person, jumper)))
+		var/distance = get_dist(shaken_person, jumper)
+		shake_camera(shaken_person, max(6-distance), max(4-distance, 1))
 	jumper.Stun(10)
-	shake_camera(jumper, 5, 4)
+	shake_camera(jumper, 4, 3)
 
 	if(ishuman(jumper) && jumper.CheckEyewitness(jumper, jumper, 6, FALSE))
 		var/mob/living/carbon/human/human_jumper = jumper
